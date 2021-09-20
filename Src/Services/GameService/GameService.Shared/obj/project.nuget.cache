@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aSqQQbRvJgCkfX4GvpoyyUqYb22JYDrBqV4sbx5n5PMEFoJT03HXOMFsSjqJdaXENzU1ARAdkYrkXr1xAJ8MfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TikTaqTo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\TikTaqTo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

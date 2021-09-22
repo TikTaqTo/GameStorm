@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj": {}
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj",
         "projectName": "GameService.UnitTests",
-        "projectPath": "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\TikTaqTo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TikTaqTo\\source\\repos\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\GameService.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TikTaqTo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

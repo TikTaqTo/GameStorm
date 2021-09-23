@@ -1,0 +1,5 @@
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.csproj.AssemblyReference.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.AssemblyInfoInputs.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.AssemblyInfo.cs
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.csproj.CoreCompileInputs.cache

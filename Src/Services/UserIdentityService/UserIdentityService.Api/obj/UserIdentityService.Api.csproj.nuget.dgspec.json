@@ -1,0 +1,493 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api\\UserIdentityService.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "projectName": "UserIdentityService.Api.Models",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api\\UserIdentityService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api\\UserIdentityService.Api.csproj",
+        "projectName": "UserIdentityService.Api",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api\\UserIdentityService.Api.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "NSwag.Annotations": {
+              "target": "Package",
+              "version": "[13.13.2, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.13.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
+        "projectName": "UserIdentityService.Application",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
+        "projectName": "UserIdentityService.Domain",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
+        "projectName": "UserIdentityService.Infrastructure",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj"
+              },
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+        "projectName": "UserIdentityService.Shared",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Application.deps.json
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Application.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\ref\UserIdentityService.Application.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Application.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Domain.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Shared.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Domain.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\bin\Debug\net5.0\UserIdentityService.Shared.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.AssemblyReference.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.AssemblyInfoInputs.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.AssemblyInfo.cs
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.CoreCompileInputs.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.CopyComplete
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\ref\UserIdentityService.Application.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.pdb

@@ -1,0 +1,12 @@
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\bin\Debug\net5.0\UserIdentityService.Shared.deps.json
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\bin\Debug\net5.0\UserIdentityService.Shared.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\bin\Debug\net5.0\ref\UserIdentityService.Shared.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\bin\Debug\net5.0\UserIdentityService.Shared.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.csproj.AssemblyReference.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.AssemblyInfoInputs.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.AssemblyInfo.cs
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.csproj.CoreCompileInputs.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\ref\UserIdentityService.Shared.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Shared\obj\Debug\net5.0\UserIdentityService.Shared.pdb

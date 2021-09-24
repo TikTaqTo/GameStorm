@@ -19,21 +19,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1EE1D0F8-1704-4610-A330-636E04F9A8A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Shared", "Src\Services\GameService\GameService.Shared\GameService.Shared.csproj", "{800D3909-EE5F-496A-8042-0C0283066C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Shared", "Src\Services\GameService\GameService.Shared\GameService.Shared.csproj", "{800D3909-EE5F-496A-8042-0C0283066C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Api", "Src\Services\GameService\GameService.Api\GameService.Api.csproj", "{4E39492C-2904-47DA-A55C-F3428FA01ADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Api", "Src\Services\GameService\GameService.Api\GameService.Api.csproj", "{4E39492C-2904-47DA-A55C-F3428FA01ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Api.Model", "Src\Services\GameService\GameService.Api.Model\GameService.Api.Model.csproj", "{A43A52C0-9AAB-4E33-81F9-E8BF2D769253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Api.Model", "Src\Services\GameService\GameService.Api.Model\GameService.Api.Model.csproj", "{A43A52C0-9AAB-4E33-81F9-E8BF2D769253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Application", "Src\Services\GameService\GameService.Application\GameService.Application.csproj", "{773D423E-8F27-404B-A0C3-ABF5C3219361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Application", "Src\Services\GameService\GameService.Application\GameService.Application.csproj", "{773D423E-8F27-404B-A0C3-ABF5C3219361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Domain", "Src\Services\GameService\GameService.Domain\GameService.Domain.csproj", "{AD5D4868-E042-49C7-B8DD-2DAB244E6E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Domain", "Src\Services\GameService\GameService.Domain\GameService.Domain.csproj", "{AD5D4868-E042-49C7-B8DD-2DAB244E6E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.Infrastructure", "Src\Services\GameService\GameService.Infrastructure\GameService.Infrastructure.csproj", "{F0FAD31A-7A88-4ECE-B0C6-0C4F873DCB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.Infrastructure", "Src\Services\GameService\GameService.Infrastructure\GameService.Infrastructure.csproj", "{F0FAD31A-7A88-4ECE-B0C6-0C4F873DCB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.UnitTests", "Src\Services\GameService\GameService.UnitTests\GameService.UnitTests.csproj", "{103E31C5-96A7-4903-AD6D-E1030486406E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.UnitTests", "Src\Services\GameService\GameService.UnitTests\GameService.UnitTests.csproj", "{103E31C5-96A7-4903-AD6D-E1030486406E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService.IntegrationTests", "Src\Services\GameService\GameService.IntegrationTests\GameService.IntegrationTests.csproj", "{EB006E27-ABD2-4A5A-B08C-BFB2403C1272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameService.IntegrationTests", "Src\Services\GameService\GameService.IntegrationTests\GameService.IntegrationTests.csproj", "{EB006E27-ABD2-4A5A-B08C-BFB2403C1272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserIdentityService", "UserIdentityService", "{4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0BD9C256-53C2-4C90-8097-88513D7891BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7D28B3A4-EEED-4448-87ED-75A0ED7039DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4FBD9CA9-5357-4222-B2CB-682D2EB798E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C75BF14C-8863-415B-B1F4-099503D5F542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4639460B-285D-4F27-8721-5743FAFBF648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Domain", "Src\Services\UserIdentityService\UserIdentityService.Domain\UserIdentityService.Domain.csproj", "{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Infrastructure", "Src\Services\UserIdentityService\UserIdentityService.Infrastructure\UserIdentityService.Infrastructure.csproj", "{9980600E-403D-4183-B0AB-1E26E54768AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Application", "Src\Services\UserIdentityService\UserIdentityService.Application\UserIdentityService.Application.csproj", "{D974F651-597E-4E7B-B311-834D932B61A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Shared", "Src\Services\UserIdentityService\UserIdentityService.Shared\UserIdentityService.Shared.csproj", "{76851609-8142-4896-974C-D69F325ABD74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Api", "Src\Services\UserIdentityService\UserIdentityService.Api\UserIdentityService.Api.csproj", "{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserIdentityService.Api.Models", "Src\Services\UserIdentityService\UserIdentityService.Api.Models\UserIdentityService.Api.Models.csproj", "{B44F2D60-D80A-43D5-8333-6F39A62D746D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserIdentityService.IntegrationTests", "Src\Services\UserIdentityService\UserIdentityService.IntegrationTests\UserIdentityService.IntegrationTests.csproj", "{5665435B-9110-44E0-8798-F7C2E990FED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserIdentityService.UnitTests", "Src\Services\UserIdentityService\UserIdentityService.UnitTests\UserIdentityService.UnitTests.csproj", "{351F93F7-123A-4F6B-87D1-A99CA7763171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +101,38 @@ Global
 		{EB006E27-ABD2-4A5A-B08C-BFB2403C1272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB006E27-ABD2-4A5A-B08C-BFB2403C1272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB006E27-ABD2-4A5A-B08C-BFB2403C1272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9980600E-403D-4183-B0AB-1E26E54768AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9980600E-403D-4183-B0AB-1E26E54768AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9980600E-403D-4183-B0AB-1E26E54768AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9980600E-403D-4183-B0AB-1E26E54768AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D974F651-597E-4E7B-B311-834D932B61A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D974F651-597E-4E7B-B311-834D932B61A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D974F651-597E-4E7B-B311-834D932B61A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D974F651-597E-4E7B-B311-834D932B61A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76851609-8142-4896-974C-D69F325ABD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76851609-8142-4896-974C-D69F325ABD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76851609-8142-4896-974C-D69F325ABD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76851609-8142-4896-974C-D69F325ABD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44F2D60-D80A-43D5-8333-6F39A62D746D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44F2D60-D80A-43D5-8333-6F39A62D746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44F2D60-D80A-43D5-8333-6F39A62D746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44F2D60-D80A-43D5-8333-6F39A62D746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5665435B-9110-44E0-8798-F7C2E990FED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5665435B-9110-44E0-8798-F7C2E990FED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5665435B-9110-44E0-8798-F7C2E990FED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5665435B-9110-44E0-8798-F7C2E990FED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351F93F7-123A-4F6B-87D1-A99CA7763171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351F93F7-123A-4F6B-87D1-A99CA7763171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351F93F7-123A-4F6B-87D1-A99CA7763171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351F93F7-123A-4F6B-87D1-A99CA7763171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +153,20 @@ Global
 		{F0FAD31A-7A88-4ECE-B0C6-0C4F873DCB6A} = {11120EEC-AC80-4B97-B312-1FE17BC64DD9}
 		{103E31C5-96A7-4903-AD6D-E1030486406E} = {1EE1D0F8-1704-4610-A330-636E04F9A8A5}
 		{EB006E27-ABD2-4A5A-B08C-BFB2403C1272} = {1EE1D0F8-1704-4610-A330-636E04F9A8A5}
+		{4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27} = {57ECC2E0-B282-4537-A5C5-A0E1704CB567}
+		{0BD9C256-53C2-4C90-8097-88513D7891BF} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{7D28B3A4-EEED-4448-87ED-75A0ED7039DC} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{4FBD9CA9-5357-4222-B2CB-682D2EB798E3} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{C75BF14C-8863-415B-B1F4-099503D5F542} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{4639460B-285D-4F27-8721-5743FAFBF648} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{2EBAD0F5-3985-4F35-A1CD-F2F8115DA6DB} = {4FBD9CA9-5357-4222-B2CB-682D2EB798E3}
+		{9980600E-403D-4183-B0AB-1E26E54768AA} = {C75BF14C-8863-415B-B1F4-099503D5F542}
+		{D974F651-597E-4E7B-B311-834D932B61A7} = {7D28B3A4-EEED-4448-87ED-75A0ED7039DC}
+		{76851609-8142-4896-974C-D69F325ABD74} = {4B7DE2FF-E94B-45EC-B6D1-4256D40FDD27}
+		{80FEB6FF-6E9A-4E9E-BE4D-98C9891B65C0} = {0BD9C256-53C2-4C90-8097-88513D7891BF}
+		{B44F2D60-D80A-43D5-8333-6F39A62D746D} = {0BD9C256-53C2-4C90-8097-88513D7891BF}
+		{5665435B-9110-44E0-8798-F7C2E990FED3} = {4639460B-285D-4F27-8721-5743FAFBF648}
+		{351F93F7-123A-4F6B-87D1-A99CA7763171} = {4639460B-285D-4F27-8721-5743FAFBF648}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E1ABDAC-3476-4D54-9AFD-9AEE40136AF3}

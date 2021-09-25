@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.VideoGame {
 
-  public class GameService : IGameService {
+  public class GamesService : IGameService {
     private readonly GameServiceContext _context;
 
-    public GameService(GameServiceContext context) {
+    public GamesService(GameServiceContext context) {
       _context = context;
     }
 

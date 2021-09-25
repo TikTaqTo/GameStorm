@@ -27,9 +27,9 @@ namespace UserIdentityService.Api.OnStartup {
         document.OperationProcessors.Add(
             new AspNetCoreOperationSecurityScopeProcessor("JWT"));
 
-        document.Title = "Watchman.Api";
+        document.Title = "UserIdentityService.Api";
         document.Version = "v1.0.0-dev";
-        document.Description = "Watchman.Api test description";
+        document.Description = "UserIdentityService.Api test description";
         document.SchemaGenerator = new OpenApiSchemaGenerator(new OpenApiDocumentGeneratorSettings {
           GenerateExamples = true,
           ReflectionService = new DefaultReflectionService(),

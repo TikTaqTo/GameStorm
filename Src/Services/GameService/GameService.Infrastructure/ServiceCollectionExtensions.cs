@@ -2,14 +2,15 @@
 using GameService.Application.Abstractions.Media;
 using GameService.Application.Abstractions.VideoGame;
 using GameService.Infrastructure.Persistence;
-using GameService.Infrastructure.Repositories.Dictionaries;
-using GameService.Infrastructure.Repositories.Media;
-using GameService.Infrastructure.Repositories.VideoGame;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
+using GameService.Infrastructure.Services.Dictionaries;
+using GameService.Infrastructure.Services.Media;
+using GameService.Infrastructure.Services.VideoGame;
+
 
 namespace GameService.Infrastructure {
 
@@ -33,13 +34,13 @@ namespace GameService.Infrastructure {
 
       services.AddHttpContextAccessor();
 
-      services.AddScoped<IGameService, GameRepository>();
-      services.AddScoped<IImageService, ImageRepository>();
-      services.AddScoped<IDeveloperService, DeveloperRepository>();
-      services.AddScoped<IGenreService, GenreRepository>();
-      services.AddScoped<IPlatformService, PlatformRepository>();
-      services.AddScoped<IPublisherService, PublisherRepository>();
-      services.AddScoped<ITagService, TagRepository>();
+      services.AddScoped<IGameService, GamesService>();
+      services.AddScoped<IImageService, ImageService>();
+      services.AddScoped<IDeveloperService, DeveloperService>();
+      services.AddScoped<IGenreService, GenreService>();
+      services.AddScoped<IPlatformService, PlatformService>();
+      services.AddScoped<IPublisherService, PublisherService>();
+      services.AddScoped<ITagService, TagService>();
 
       return services;
     }

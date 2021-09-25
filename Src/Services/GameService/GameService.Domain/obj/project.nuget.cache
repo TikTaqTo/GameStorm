@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6MTikzhi6Tjq27nW0yNjbHVpe+V8NCkIq6jfCx5FBD58KHeCEY8XWWRz7iY5K+I3qTBqSyJsdRiKadGh0E/FYw==",
+  "dgSpecHash": "gdQzmC5hKhv4F8bSEadL+rjR+woS9J12hQ3MLfR9KGr2FLLSeF723J2zP9u6UTPyxIfKz6wm25WFoqW7zaymEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
+  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.10\\microsoft.aspnetcore.cryptography.keyderivation.5.0.10.nupkg.sha512",

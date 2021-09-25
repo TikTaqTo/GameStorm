@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cHUcTE0hB2AY7iKFNGCdn3C1ZVgd8ork9IfMSoZg4CJSubZObv3k5VaWPnTVykf+xna8MSKGoCe/2AV4M+TpaQ==",
+  "dgSpecHash": "YlGBtYKf5bc4zwHg6k5AVXzZVK5Zby5dIQeCjvLbr991Kv4S8xfbXhMl0rt0y+t7gXg5Ay55Vwxc69L9zpeIGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.Api\\GameService.Api.csproj",
+  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\GameService\\GameService.Api\\GameService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

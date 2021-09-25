@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uAREIz4yC7H+11igdU9hJR3E2Vr+BCgVb53ZOcX+y1QnzFf65RW2ZLfzySRkBjJBW3lYtPaIVXExj4aQYUW15w==",
+  "dgSpecHash": "tpWakiryhUqu8M9a3iZC4bGxNj7cK2HSodgJBRNCgZSjfUkPwlndXYGXnTZc4q/w0XlDU2nfkNCTW6miU5FegQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

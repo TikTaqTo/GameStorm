@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = GameService.IntegrationTests
-build_property.ProjectDir = C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.IntegrationTests\
+build_property.ProjectDir = W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.IntegrationTests\

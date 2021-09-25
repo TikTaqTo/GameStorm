@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gw/D0M20jLjqW0ge7sQ0CVdACxn9rZwiK3UQMYx/40SU9ebJ4bx0wJDNlqZslaEHia6zShiwr9RhGhPpCvpMnA==",
+  "dgSpecHash": "z4Jtpo1UEkectkWgqfJc43lmgysRtjZESKU7ZMaQCRXOpujvrRIpG1HNB+CJRghDsVo8gvyrUQB3WbPPjGphhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
+  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

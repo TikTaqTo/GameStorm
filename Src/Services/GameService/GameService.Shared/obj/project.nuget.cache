@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6r4dCRriJ4ca3N1o6uFGmRoNr+h1kKsEqegWxI0zX/GcQOvSyCPSA2AkuHTlsFYr8hFw7r+JxSm/anqNZp3zg==",
+  "dgSpecHash": "kGQlgqlt6TlXkCmiAAZB6AMd0diAe+gosgoxbdSrPryb22VN8NIp8EP9CZDxZ6SSsOsr33YvvNEhi0KI3Grunw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
+  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"

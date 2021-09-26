@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using GameService.Api.Model.Media;
+using GameService.Api.Model.Requests;
 using GameService.Api.Model.Replies;
 
 namespace GameService.Api.MappingProfiles {
@@ -7,6 +7,12 @@ namespace GameService.Api.MappingProfiles {
     public GamesProfile() {
       CreateMap<GameReply, Domain.Replies.GameReply>().ReverseMap();
       CreateMap<GamesReply, Domain.Replies.GamesReply>().ReverseMap();
+
+      CreateMap<AddDeveloperToGameRequest, Domain.Requests.AddDeveloperToGameRequest>().ReverseMap();
+      CreateMap<AddGenreToGameRequest, Domain.Requests.AddGenreToGameRequest>().ReverseMap();
+      CreateMap<AddPlatformToGameRequest, Domain.Requests.AddPlatformToGameRequest>().ReverseMap();
+      CreateMap<AddPublisherToGameRequest, Domain.Requests.AddPublisherToGameRequest>().ReverseMap();
+      CreateMap<AddTagToGameRequest, Domain.Requests.AddTagToGameRequest>().ReverseMap();
     }
   }
 }

@@ -24,7 +24,7 @@ namespace GameService.Api.Controllers.VideoGames {
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
-    public async Task<IActionResult> CreateMovie([FromBody] GameReply game) {
+    public async Task<IActionResult> CreateGame([FromBody] GameReply game) {
       var domainGame = _mapper.Map<Domain.EntityModels.VideoGame.Game>(game);
       var createGameCommand = new CreateGameCommand(domainGame);
       var cratedGameReply = await _mediator.Send(createGameCommand);

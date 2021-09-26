@@ -1,6 +1,7 @@
 ﻿using GameService.Application.Abstractions.VideoGame;
 using GameService.Domain.EntityModels.VideoGame;
 using GameService.Domain.Replies;
+using GameService.Domain.Requests;
 using GameService.Infrastructure.Persistence;
 using System;
 using System.Collections.Generic;
@@ -52,5 +53,25 @@ namespace GameService.Infrastructure.Services.VideoGame {
         Game = game
       };
     }
+
+    #region Binding
+    public async Task<GameReply> AddGenreToGame(AddGenreToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var genre = await _context.Genres.FindAsync(request.GenreId);
+
+      if (game is null) {
+        throw new ArgumentNullException($"Could not find movie by id: {request.GameId}");
+      } else if (game is null) {
+        throw new ArgumentNullException($"Could not find genre by id: {request.GenreId}");
+      }
+
+      game.Genres.Add(genre);
+      await _context.SaveChangesAsync();
+
+      return new GameReply {
+        Game = game
+      };
+    }
+    #endregion
   }
 }

@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GameService.Api.Model\GameService.Api.Model.csproj" />
     <ProjectReference Include="..\GameService.Application\GameService.Application.csproj" />
     <ProjectReference Include="..\GameService.Infrastructure\GameService.Infrastructure.csproj" />

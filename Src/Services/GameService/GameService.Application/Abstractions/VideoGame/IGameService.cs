@@ -1,10 +1,9 @@
 ﻿using GameService.Domain.EntityModels.VideoGame;
 using GameService.Domain.Replies;
+using GameService.Domain.Requests;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+
 
 namespace GameService.Application.Abstractions.VideoGame {
 
@@ -17,5 +16,7 @@ namespace GameService.Application.Abstractions.VideoGame {
     Task<GamesReply> RetrieveGames();
 
     Task<GameReply> DeleteGameById(Guid id);
+
+    Task<GameReply> AddGenreToGame(AddGenreToGameRequest request);
   }
 }

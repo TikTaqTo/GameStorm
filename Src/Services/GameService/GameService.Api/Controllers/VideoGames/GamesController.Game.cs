@@ -3,6 +3,7 @@ using GameService.Api.Model.Requests;
 using GameService.Api.Model.VideoGame;
 using GameService.Application.Commands.VideoGame.AddGenre;
 using GameService.Application.Commands.VideoGame.Create;
+using GameService.Application.Commands.VideoGame.Delete;
 using GameService.Application.Commands.VideoGame.Update;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +19,7 @@ namespace GameService.Api.Controllers.VideoGames {
     /// <summary>
     ///     Method to create game
     /// </summary>
-    /// <param name="create"></param>
+    /// <param name="game-create"></param>
     /// <returns></returns>
     [HttpPost("create-game")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
@@ -50,6 +51,21 @@ namespace GameService.Api.Controllers.VideoGames {
     }
 
     /// <summary>
+    ///     Method to delete game by id
+    /// </summary>
+    /// <param name="game-delete"></param>
+    /// <returns></returns>
+    [HttpDelete("delete-game-by-id")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> DeleteGame(Guid gameId) {
+      var deleteGameReply = await _mediator.Send(new DeleteGameCommand(gameId));
+      var mappedDeletedGameReply = _mapper.Map<GameReply>(deleteGameReply);
+      return Ok(mappedDeletedGameReply);
+    }
+
+    /// <summary>
     ///     Method to add genre to game
     /// </summary>
     /// <param name="request"></param>
@@ -58,7 +74,7 @@ namespace GameService.Api.Controllers.VideoGames {
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
-    public async Task<IActionResult> AddGenreToMovie([FromBody] AddGenreToGameRequest request) {
+    public async Task<IActionResult> AddGenreToGame([FromBody] AddGenreToGameRequest request) {
       var domainRequest = _mapper.Map<Domain.Requests.AddGenreToGameRequest>(request);
       var query = new AddGenreToGameCommand(domainRequest);
       var gameReply = await _mediator.Send(query);

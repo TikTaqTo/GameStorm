@@ -5,6 +5,7 @@ using GameService.Application.Commands.VideoGame.AddGenre;
 using GameService.Application.Commands.VideoGame.Create;
 using GameService.Application.Commands.VideoGame.Delete;
 using GameService.Application.Commands.VideoGame.Update;
+using GameService.Application.Queries.VideoGame;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,6 +16,24 @@ using System.Threading.Tasks;
 namespace GameService.Api.Controllers.VideoGames {
 
   public partial class GamesController : ControllerBase {
+    #region Retrieve
+    /// <summary>
+    ///     Method to retrieve games
+    /// </summary>
+    /// <param name="game-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGames() {
+      var query = new RetrieveGamesQuery();
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
+    #endregion
+
 
     /// <summary>
     ///     Method to create game

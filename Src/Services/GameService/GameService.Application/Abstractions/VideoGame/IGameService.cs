@@ -13,6 +13,8 @@ namespace GameService.Application.Abstractions.VideoGame {
 
     Task<GameReply> UpdateGame(Game game);
 
+    Task<GameReply> RetrieveGameById(Guid gameId);
+
     Task<GamesReply> RetrieveGames();
 
     Task<GameReply> DeleteGameById(Guid id);

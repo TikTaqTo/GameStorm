@@ -32,6 +32,22 @@ namespace GameService.Api.Controllers.VideoGames {
       var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
       return Ok(mappedGamesReply);
     }
+
+    /// <summary>
+    ///     Method to retrieve game by id
+    /// </summary>
+    /// <param name="game-retrieve-by-id"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-movie-by-id")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGameById(Guid gameId) {
+      var query = new RetrieveGameByIdQuery(gameId);
+      var gameReply = await _mediator.Send(query);
+      var mappedGameReply = _mapper.Map<GameReply>(gameReply);
+      return Ok(mappedGameReply);
+    }
     #endregion
 
 

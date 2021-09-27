@@ -3,6 +3,7 @@ using GameService.Domain.EntityModels.VideoGame;
 using GameService.Domain.Replies;
 using GameService.Domain.Requests;
 using GameService.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -53,6 +54,22 @@ namespace GameService.Infrastructure.Services.VideoGame {
         Game = game
       };
     }
+
+    public async Task<GameReply> RetrieveGameById(Guid gameId) {
+      var game = _context.Games.Where(x => x.Id == gameId)
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .First();
+
+      var gameReply = new GameReply() {
+        Game = game
+      };
+
+      return await Task.FromResult(gameReply);
+    } 
 
     #region Binding
     public async Task<GameReply> AddGenreToGame(AddGenreToGameRequest request) {

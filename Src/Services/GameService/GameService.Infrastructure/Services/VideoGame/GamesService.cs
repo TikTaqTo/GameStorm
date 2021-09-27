@@ -69,7 +69,23 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
 
       return await Task.FromResult(gameReply);
-    } 
+    }
+
+    public async Task<GameReply> RetrieveGameByName(string gameTitle) {
+      var game = _context.Games.Where(x=>x.Title.Contains(gameTitle))
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .First();
+
+      var gameReply = new GameReply() {
+        Game = game
+      };
+
+      return await Task.FromResult(gameReply);
+    }
 
     #region Binding
     public async Task<GameReply> AddGenreToGame(AddGenreToGameRequest request) {
@@ -89,6 +105,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
         Game = game
       };
     }
+
     #endregion
   }
 }

@@ -38,7 +38,7 @@ namespace GameService.Api.Controllers.VideoGames {
     /// </summary>
     /// <param name="game-retrieve-by-id"></param>
     /// <returns></returns>
-    [HttpGet("retrieve-movie-by-id")]
+    [HttpGet("retrieve-game-by-id")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]

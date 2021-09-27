@@ -58,7 +58,7 @@ namespace GameService.Api.Controllers.VideoGames {
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
-    public async Task<IActionResult> RetrieveMoviesByName(string gameName) {
+    public async Task<IActionResult> RetrieveGameByName(string gameName) {
       var query = new RetrieveGameByNameQuery(gameName);
       var gameReply = await _mediator.Send(query);
       var mappedGameReply = _mapper.Map<GameReply>(gameReply);

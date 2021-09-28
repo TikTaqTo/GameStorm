@@ -17,6 +17,8 @@ namespace GameService.Application.Abstractions.VideoGame {
 
     Task<GameReply> RetrieveGameByName(string gameTitle);
 
+    Task<GamesReply> RetrieveGamesByName(string gameTitle);
+
     Task<GamesReply> RetrieveGames();
 
     Task<GameReply> DeleteGameById(Guid id);

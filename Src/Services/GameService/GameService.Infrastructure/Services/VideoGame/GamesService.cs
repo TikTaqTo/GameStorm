@@ -137,6 +137,24 @@ namespace GameService.Infrastructure.Services.VideoGame {
         Game = game
       };
     }
+
+    public async Task<GameReply> AddDeveloperToGame(AddDeveloperToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var developer = await _context.Developers.FindAsync(request.DeveloperId);
+
+      if (game is null) {
+        throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
+      } else if (developer is null) {
+        throw new ArgumentNullException($"Could not find developer by id: {request.DeveloperId}");
+      }
+
+      game.Developers.Add(developer);
+      await _context.SaveChangesAsync();
+
+      return new GameReply {
+        Game = game
+      };
+    }
     #endregion Binding
   }
 }

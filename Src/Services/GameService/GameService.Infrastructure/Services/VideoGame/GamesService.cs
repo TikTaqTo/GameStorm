@@ -5,9 +5,7 @@ using GameService.Domain.Requests;
 using GameService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.VideoGame {
@@ -72,7 +70,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
     }
 
     public async Task<GameReply> RetrieveGameByName(string gameTitle) {
-      var game = _context.Games.Where(x=>x.Title.Contains(gameTitle))
+      var game = _context.Games.Where(x => x.Title == gameTitle)
         .Include(x => x.Platforms)
         .Include(x => x.Genres)
         .Include(x => x.Developers)
@@ -87,7 +85,23 @@ namespace GameService.Infrastructure.Services.VideoGame {
       return await Task.FromResult(gameReply);
     }
 
+    public async Task<GamesReply> RetrieveGamesByName(string gameTitle) {
+      var games = _context.Games.Where(x => x.Title.Contains(gameTitle))
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots);
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
     #region Binding
+
     public async Task<GameReply> AddGenreToGame(AddGenreToGameRequest request) {
       var game = await _context.Games.FindAsync(request.GameId);
       var genre = await _context.Genres.FindAsync(request.GenreId);
@@ -106,6 +120,6 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
     }
 
-    #endregion
+    #endregion Binding
   }
 }

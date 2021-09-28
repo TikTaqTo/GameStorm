@@ -120,6 +120,23 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
     }
 
+    public async Task<GameReply> AddTagToGame(AddTagToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var tag = await _context.Tags.FindAsync(request.TagId);
+
+      if (game is null) {
+        throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
+      } else if (tag is null) {
+        throw new ArgumentNullException($"Could not find tag by id: {request.TagId}");
+      }
+
+      game.Tags.Add(tag);
+      await _context.SaveChangesAsync();
+
+      return new GameReply {
+        Game = game
+      };
+    }
     #endregion Binding
   }
 }

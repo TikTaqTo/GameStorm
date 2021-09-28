@@ -2,6 +2,7 @@
 using GameService.Api.Model.Requests;
 using GameService.Api.Model.VideoGame;
 using GameService.Application.Commands.VideoGame.AddGenre;
+using GameService.Application.Commands.VideoGame.AddTag;
 using GameService.Application.Commands.VideoGame.Create;
 using GameService.Application.Commands.VideoGame.Delete;
 using GameService.Application.Commands.VideoGame.Update;
@@ -144,6 +145,23 @@ namespace GameService.Api.Controllers.VideoGames {
     public async Task<IActionResult> AddGenreToGame([FromBody] AddGenreToGameRequest request) {
       var domainRequest = _mapper.Map<Domain.Requests.AddGenreToGameRequest>(request);
       var query = new AddGenreToGameCommand(domainRequest);
+      var gameReply = await _mediator.Send(query);
+      var mappedGameReply = _mapper.Map<GameReply>(gameReply);
+      return Ok(mappedGameReply);
+    }
+
+    /// <summary>
+    ///     Method to add tag to game
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost("add-tag-to-game")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> AddTagToGame([FromBody] AddTagToGameRequest request) {
+      var domainRequest = _mapper.Map<Domain.Requests.AddTagToGameRequest>(request);
+      var query = new AddTagToGameCommand(domainRequest);
       var gameReply = await _mediator.Send(query);
       var mappedGameReply = _mapper.Map<GameReply>(gameReply);
       return Ok(mappedGameReply);

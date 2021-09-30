@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Create {
 
-  public class CreateDeveloperCommandValidator : AbstractValidator<CreateGenreCommand> {
+  public class CreateDeveloperCommandValidator : AbstractValidator<CreateDeveloperCommand> {
 
     public CreateDeveloperCommandValidator() {
       RuleFor(x => x.Developer)

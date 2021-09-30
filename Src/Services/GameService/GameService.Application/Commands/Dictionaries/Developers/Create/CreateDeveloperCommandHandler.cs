@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Create {
 
-  public class CreateDeveloperCommandHandler : IRequestHandler<CreateGenreCommand, DeveloperReply> {
+  public class CreateDeveloperCommandHandler : IRequestHandler<CreateDeveloperCommand, DeveloperReply> {
     private readonly IDeveloperService _developerRepository;
 
     public CreateDeveloperCommandHandler(IDeveloperService developerRepository) {
       _developerRepository = developerRepository;
     }
 
-    public async Task<DeveloperReply> Handle(CreateGenreCommand request, CancellationToken cancellationToken) {
+    public async Task<DeveloperReply> Handle(CreateDeveloperCommand request, CancellationToken cancellationToken) {
       return await _developerRepository.CreateDeveloper(request.Developer);
     }
   }

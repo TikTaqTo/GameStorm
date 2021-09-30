@@ -4,9 +4,9 @@ using GameService.Domain.EntityModels.Dictionaries;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Create {
 
-  public class CreateGenreCommand : IRequest<DeveloperReply> {
+  public class CreateDeveloperCommand : IRequest<DeveloperReply> {
 
-    public CreateGenreCommand(Developer developer) {
+    public CreateDeveloperCommand(Developer developer) {
       Developer = developer;
     }
 

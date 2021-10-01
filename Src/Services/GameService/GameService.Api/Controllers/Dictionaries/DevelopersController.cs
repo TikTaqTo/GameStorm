@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GameService.Api.Controllers.VideoGames {
+namespace GameService.Api.Controllers.Dictionaries {
   [ApiController]
-  [Route("api/games")]
+  [Route("api/developers")]
   [Produces("application/json")]
-  public partial class GamesController : ControllerBase {
+  public partial class DevelopersController : ControllerBase {
     private readonly IMapper _mapper;
     private readonly IMediator _mediator;
 
@@ -19,7 +19,7 @@ namespace GameService.Api.Controllers.VideoGames {
     /// </summary>
     /// <param name="mediator"></param>
     /// <param name="mapper"></param>
-    public GamesController(IMediator mediator, IMapper mapper) {
+    public DevelopersController(IMediator mediator, IMapper mapper) {
       _mediator = mediator;
       _mapper = mapper;
     }

@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Genres.Create {
 
-  public class CreateTagCommandHandler : IRequestHandler<CreateGenreCommand, GenreReply> {
+  public class CreateGenreCommandHandler : IRequestHandler<CreateGenreCommand, GenreReply> {
     private readonly IGenreService _genreService;
 
-    public CreateTagCommandHandler(IGenreService genreService) {
+    public CreateGenreCommandHandler(IGenreService genreService) {
       _genreService = genreService;
     }
 

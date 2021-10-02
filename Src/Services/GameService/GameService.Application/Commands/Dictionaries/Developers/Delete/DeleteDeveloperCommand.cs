@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Delete {
 
-  public class DeleteGenreCommand : IRequest<DeveloperReply> {
+  public class DeleteDeveloperCommand : IRequest<DeveloperReply> {
 
-    public DeleteGenreCommand(int id) {
+    public DeleteDeveloperCommand(int id) {
       Id = id;
     }
 

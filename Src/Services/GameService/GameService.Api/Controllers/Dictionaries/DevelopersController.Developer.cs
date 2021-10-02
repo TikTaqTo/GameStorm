@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using GameService.Api.Model.Replies;
 using GameService.Api.Model.Dictionaries;
 using GameService.Application.Commands.Dictionaries.Developers.Create;
+using GameService.Application.Commands.Dictionaries.Developers.Delete;
 
 
 namespace GameService.Api.Controllers.Dictionaries {
@@ -23,7 +24,7 @@ namespace GameService.Api.Controllers.Dictionaries {
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(DeveloperReply))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
-    public async Task<IActionResult> Createdeveloper([FromBody] Developer developer) {
+    public async Task<IActionResult> CreateDeveloper([FromBody] Developer developer) {
       var domainDeveloper = _mapper.Map<Domain.EntityModels.Dictionaries.Developer>(developer);
       var createDeveloperCommand = new CreateDeveloperCommand(domainDeveloper);
       var cratedDeveloperReply = await _mediator.Send(createDeveloperCommand);
@@ -31,5 +32,19 @@ namespace GameService.Api.Controllers.Dictionaries {
       return Ok(mappedCrateddeveloperReply);
     }
 
+    /// <summary>
+    ///     Method to delete developer by id
+    /// </summary>
+    /// <param name="developer-delete"></param>
+    /// <returns></returns>
+    [HttpDelete("delete-developer-by-id")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(DeveloperReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> DeleteDeveloper(int developerId) {
+      var deleteDeveloperReply = await _mediator.Send(new DeleteDeveloperCommand(developerId));
+      var mappedDeletedDeveloperReply = _mapper.Map<DeveloperReply>(deleteDeveloperReply);
+      return Ok(mappedDeletedDeveloperReply);
+    }
   }
 }

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Genres.Create {
 
-  public class CreateTagCommanValidator : AbstractValidator<CreateGenreCommand> {
+  public class CreateGenreCommandValidator : AbstractValidator<CreateGenreCommand> {
 
-    public CreateTagCommanValidator() {
+    public CreateGenreCommandValidator() {
       RuleFor(x => x.Genre)
         .SetValidator(new GenreValidator())
         .WithMessage("Invalid genre entity");

@@ -27,7 +27,6 @@ namespace GameService.Api.Controllers.Dictionaries {
       var mappedDevelopersReply = _mapper.Map<DevelopersReply>(developersReply);
       return Ok(mappedDevelopersReply);
     }
-
     #endregion
 
 

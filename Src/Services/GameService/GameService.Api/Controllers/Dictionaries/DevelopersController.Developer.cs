@@ -6,12 +6,28 @@ using GameService.Api.Model.Dictionaries;
 using GameService.Application.Commands.Dictionaries.Developers.Create;
 using GameService.Application.Commands.Dictionaries.Developers.Delete;
 using GameService.Application.Commands.Dictionaries.Developers.Update;
+using GameService.Application.Queries.Dictionaries.Developers;
 
 namespace GameService.Api.Controllers.Dictionaries {
 
   public partial class DevelopersController : ControllerBase {
     #region Retrieve
-    
+    /// <summary>
+    ///     Method to retrieve developers
+    /// </summary>
+    /// <param name="developer-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-developers")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(DevelopersReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveDevelopers() {
+      var query = new RetrieveDevelopersQuery();
+      var developersReply = await _mediator.Send(query);
+      var mappedDevelopersReply = _mapper.Map<DevelopersReply>(developersReply);
+      return Ok(mappedDevelopersReply);
+    }
+
     #endregion
 
 

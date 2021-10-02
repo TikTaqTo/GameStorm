@@ -3,6 +3,7 @@ using GameService.Api.Model.Replies;
 using GameService.Application.Commands.Dictionaries.Genres.Create;
 using GameService.Application.Commands.Dictionaries.Genres.Delete;
 using GameService.Application.Commands.Dictionaries.Genres.Update;
+using GameService.Application.Queries.Dictionaries.Genres;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -10,6 +11,23 @@ using System.Threading.Tasks;
 namespace GameService.Api.Controllers.Dictionaries {
 
   public partial class GenresController : ControllerBase {
+    #region Retrieve
+    /// <summary>
+    ///     Method to retrieve genres
+    /// </summary>
+    /// <param name="genre-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-genres")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GenresReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGenres() {
+      var query = new RetrieveGenresQuery();
+      var genresReply = await _mediator.Send(query);
+      var mappedGenresReply = _mapper.Map<GenresReply>(genresReply);
+      return Ok(mappedGenresReply);
+    }
+    #endregion
 
     /// <summary>
     ///     Method to create genre

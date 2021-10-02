@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Delete {
 
-  public class DeleteGenreCommandHandler : IRequestHandler<DeleteGenreCommand, DeveloperReply> {
+  public class DeleteDeveloperCommandHandler : IRequestHandler<DeleteDeveloperCommand, DeveloperReply> {
     private readonly IDeveloperService _developerService;
 
-    public DeleteGenreCommandHandler(IDeveloperService developerService) {
+    public DeleteDeveloperCommandHandler(IDeveloperService developerService) {
       _developerService = developerService;
     }
 
-    public async Task<DeveloperReply> Handle(DeleteGenreCommand request, CancellationToken cancellationToken) {
+    public async Task<DeveloperReply> Handle(DeleteDeveloperCommand request, CancellationToken cancellationToken) {
       return await _developerService.DeleteDeveloperById(request.Id);
     }
   }

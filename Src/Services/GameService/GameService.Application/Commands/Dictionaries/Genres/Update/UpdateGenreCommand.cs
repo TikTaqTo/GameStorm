@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Genres.Update {
 
-  public class UpdateTagCommand : IRequest<GenreReply> {
+  public class UpdateGenreCommand : IRequest<GenreReply> {
     public Genre Genre { get; }
 
-    public UpdateTagCommand(Genre genre) {
+    public UpdateGenreCommand(Genre genre) {
       Genre = genre;
     }
   }

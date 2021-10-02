@@ -3,12 +3,12 @@ using GameService.Application.Validators.Dictionaries.Developers;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Update {
 
-  public class UpdateGenreCommandValidator : AbstractValidator<UpdateGenreCommand> {
+  public class UpdateDeveloperCommandValidator : AbstractValidator<UpdateDeveloperCommand> {
 
-    public UpdateGenreCommandValidator() {
+    public UpdateDeveloperCommandValidator() {
       RuleFor(x => x.Developer)
                .SetValidator(new DeveloperValidator())
-               .WithMessage("Invalid genre entity");
+               .WithMessage("Invalid developer entity");
     }
   }
 }

@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Developers.Update {
 
-  public class UpdateGenreCommand : IRequest<DeveloperReply> {
+  public class UpdateDeveloperCommand : IRequest<DeveloperReply> {
     public Developer Developer { get; }
 
-    public UpdateGenreCommand(Developer developer) {
+    public UpdateDeveloperCommand(Developer developer) {
       Developer = developer;
     }
   }

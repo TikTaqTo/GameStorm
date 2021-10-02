@@ -5,7 +5,7 @@ using GameService.Api.Model.Replies;
 using GameService.Api.Model.Dictionaries;
 using GameService.Application.Commands.Dictionaries.Developers.Create;
 using GameService.Application.Commands.Dictionaries.Developers.Delete;
-
+using GameService.Application.Commands.Dictionaries.Developers.Update;
 
 namespace GameService.Api.Controllers.Dictionaries {
 
@@ -30,6 +30,23 @@ namespace GameService.Api.Controllers.Dictionaries {
       var cratedDeveloperReply = await _mediator.Send(createDeveloperCommand);
       var mappedCrateddeveloperReply = _mapper.Map<DeveloperReply>(cratedDeveloperReply);
       return Ok(mappedCrateddeveloperReply);
+    }
+
+    /// <summary>
+    ///     Method to update developer
+    /// </summary>
+    /// <param name="developer-update"></param>
+    /// <returns></returns>
+    [HttpPost("update-developer")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(DeveloperReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> UpdateDeveloper([FromBody] Developer developer) {
+      var domainDeveloper = _mapper.Map<Domain.EntityModels.Dictionaries.Developer>(developer);
+      var updateDeveloperCommand = new UpdateDeveloperCommand(domainDeveloper);
+      var updatedDeveloperReply = await _mediator.Send(updateDeveloperCommand);
+      var mappedUpdatedDeveloperReply = _mapper.Map<DeveloperReply>(updatedDeveloperReply);
+      return Ok(mappedUpdatedDeveloperReply);
     }
 
     /// <summary>

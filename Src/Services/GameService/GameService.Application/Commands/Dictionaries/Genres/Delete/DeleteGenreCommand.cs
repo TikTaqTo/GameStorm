@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Genres.Delete {
 
-  public class DeleteTagCommand : IRequest<GenreReply> {
+  public class DeleteGenreCommand : IRequest<GenreReply> {
     public int Id { get; }
 
-    public DeleteTagCommand(int id) {
+    public DeleteGenreCommand(int id) {
       Id = id;
     }
   }

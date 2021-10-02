@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace GameService.Application.Commands.Dictionaries.Genres.Delete {
 
-  public class DeleteTagCommandValidator : AbstractValidator<DeleteTagCommand> {
+  public class DeleteGenreCommandValidator : AbstractValidator<DeleteGenreCommand> {
 
-    public DeleteTagCommandValidator() {
+    public DeleteGenreCommandValidator() {
       RuleFor(x => x.Id)
         .GreaterThan(0)
         .WithMessage("Id can not be smaller than 0");

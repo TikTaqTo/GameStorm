@@ -7,6 +7,7 @@ using GameService.Application.Commands.Dictionaries.Publishers.Create;
 using GameService.Application.Commands.Dictionaries.Publishers.Delete;
 using GameService.Application.Commands.Dictionaries.Publishers.Update;
 using GameService.Application.Queries.Dictionaries.Genres;
+using GameService.Application.Queries.Dictionaries.Publishers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -15,7 +16,21 @@ namespace GameService.Api.Controllers.Dictionaries {
 
   public partial class PublishersController : ControllerBase {
     #region Retrieve
-   
+    /// <summary>
+    ///     Method to retrieve publishers
+    /// </summary>
+    /// <param name="publisher-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-publishers")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PublishersReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrievePublishers() {
+      var query = new RetrievePublishersQuery();
+      var publishersReply = await _mediator.Send(query);
+      var mappedPublishersReply = _mapper.Map<PublishersReply>(publishersReply);
+      return Ok(mappedPublishersReply);
+    }
     #endregion
 
     /// <summary>

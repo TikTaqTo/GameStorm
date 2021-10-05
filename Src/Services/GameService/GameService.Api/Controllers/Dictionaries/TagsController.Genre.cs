@@ -7,6 +7,7 @@ using GameService.Application.Commands.Dictionaries.Tags.Create;
 using GameService.Application.Commands.Dictionaries.Tags.Delete;
 using GameService.Application.Commands.Dictionaries.Tags.Update;
 using GameService.Application.Queries.Dictionaries.Genres;
+using GameService.Application.Queries.Dictionaries.Tags;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -14,7 +15,24 @@ using System.Threading.Tasks;
 namespace GameService.Api.Controllers.Dictionaries {
 
   public partial class TagsController : ControllerBase {
-    
+    #region Retrieve
+    /// <summary>
+    ///     Method to retrieve tags
+    /// </summary>
+    /// <param name="tag-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-tags")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(TagsReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveTags() {
+      var query = new RetrieveTagsQuery();
+      var tagsReply = await _mediator.Send(query);
+      var mappedTagsReply = _mapper.Map<TagsReply>(tagsReply);
+      return Ok(mappedTagsReply);
+    }
+    #endregion
+
     /// <summary>
     ///     Method to create tag
     /// </summary>

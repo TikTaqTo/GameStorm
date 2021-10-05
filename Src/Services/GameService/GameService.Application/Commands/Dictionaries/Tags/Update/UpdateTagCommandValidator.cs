@@ -3,7 +3,7 @@ using GameService.Application.Validators.Dictionaries.Tags;
 
 namespace GameService.Application.Commands.Dictionaries.Tags.Update {
 
-  public class UpdateTagCommandValidator : AbstractValidator<UpdatePublisherCommand> {
+  public class UpdateTagCommandValidator : AbstractValidator<UpdateTagCommand> {
 
     public UpdateTagCommandValidator() {
       RuleFor(x => x.Tag)

@@ -4,6 +4,7 @@ using GameService.Application.Commands.Dictionaries.Genres.Create;
 using GameService.Application.Commands.Dictionaries.Genres.Delete;
 using GameService.Application.Commands.Dictionaries.Genres.Update;
 using GameService.Application.Commands.Dictionaries.Tags.Create;
+using GameService.Application.Commands.Dictionaries.Tags.Delete;
 using GameService.Application.Commands.Dictionaries.Tags.Update;
 using GameService.Application.Queries.Dictionaries.Genres;
 using Microsoft.AspNetCore.Http;
@@ -46,6 +47,21 @@ namespace GameService.Api.Controllers.Dictionaries {
       var updatedTagReply = await _mediator.Send(updateTagCommand);
       var mappedUpdatedTagReply = _mapper.Map<TagReply>(updatedTagReply);
       return Ok(mappedUpdatedTagReply);
+    }
+
+    /// <summary>
+    ///     Method to delete tag by id
+    /// </summary>
+    /// <param name="tag-delete"></param>
+    /// <returns></returns>
+    [HttpDelete("delete-tag-by-id")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(TagReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> DeleteTag(int tagId) {
+      var deleteTagReply = await _mediator.Send(new DeleteTagCommand(tagId));
+      var mappedDeletedTagReply = _mapper.Map<TagReply>(deleteTagReply);
+      return Ok(mappedDeletedTagReply);
     }
   }
 }

@@ -4,6 +4,7 @@ using GameService.Application.Commands.Dictionaries.Genres.Create;
 using GameService.Application.Commands.Dictionaries.Genres.Delete;
 using GameService.Application.Commands.Dictionaries.Genres.Update;
 using GameService.Application.Commands.Dictionaries.Platforms.Create;
+using GameService.Application.Commands.Dictionaries.Platforms.Delete;
 using GameService.Application.Commands.Dictionaries.Platforms.Update;
 using GameService.Application.Commands.Dictionaries.Tags.Create;
 using GameService.Application.Commands.Dictionaries.Tags.Delete;
@@ -50,6 +51,21 @@ namespace GameService.Api.Controllers.Dictionaries {
       var updatedPlatformReply = await _mediator.Send(updatePlatformCommand);
       var mappedUpdatedPlatformReply = _mapper.Map<PlatformReply>(updatedPlatformReply);
       return Ok(mappedUpdatedPlatformReply);
+    }
+
+    /// <summary>
+    ///     Method to delete platform by id
+    /// </summary>
+    /// <param name="platform-delete"></param>
+    /// <returns></returns>
+    [HttpDelete("delete-platform-by-id")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PlatformReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> DeletePlatform(int platformId) {
+      var deletePlatformReply = await _mediator.Send(new DeletePlatformCommand(platformId));
+      var mappedDeletedPlatformReply = _mapper.Map<PlatformReply>(deletePlatformReply);
+      return Ok(mappedDeletedPlatformReply);
     }
   }
 }

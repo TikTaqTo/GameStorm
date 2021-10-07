@@ -4,6 +4,7 @@ using GameService.Application.Commands.Dictionaries.Genres.Create;
 using GameService.Application.Commands.Dictionaries.Genres.Delete;
 using GameService.Application.Commands.Dictionaries.Genres.Update;
 using GameService.Application.Commands.Dictionaries.Platforms.Create;
+using GameService.Application.Commands.Dictionaries.Platforms.Update;
 using GameService.Application.Commands.Dictionaries.Tags.Create;
 using GameService.Application.Commands.Dictionaries.Tags.Delete;
 using GameService.Application.Commands.Dictionaries.Tags.Update;
@@ -32,6 +33,23 @@ namespace GameService.Api.Controllers.Dictionaries {
       var cratedPlatformReply = await _mediator.Send(createPlatformCommand);
       var mappedCratedplatformReply = _mapper.Map<PlatformReply>(cratedPlatformReply);
       return Ok(mappedCratedplatformReply);
+    }
+
+    /// <summary>
+    ///     Method to update platform
+    /// </summary>
+    /// <param name="platform-update"></param>
+    /// <returns></returns>
+    [HttpPost("update-platform")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PlatformReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> UpdatePlatform([FromBody] Platform platform) {
+      var domainPlatform = _mapper.Map<Domain.EntityModels.Dictionaries.Platform>(platform);
+      var updatePlatformCommand = new UpdatePlatformCommand(domainPlatform);
+      var updatedPlatformReply = await _mediator.Send(updatePlatformCommand);
+      var mappedUpdatedPlatformReply = _mapper.Map<PlatformReply>(updatedPlatformReply);
+      return Ok(mappedUpdatedPlatformReply);
     }
   }
 }

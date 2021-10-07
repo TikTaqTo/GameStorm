@@ -10,6 +10,7 @@ using GameService.Application.Commands.Dictionaries.Tags.Create;
 using GameService.Application.Commands.Dictionaries.Tags.Delete;
 using GameService.Application.Commands.Dictionaries.Tags.Update;
 using GameService.Application.Queries.Dictionaries.Genres;
+using GameService.Application.Queries.Dictionaries.Platforms;
 using GameService.Application.Queries.Dictionaries.Tags;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +19,24 @@ using System.Threading.Tasks;
 namespace GameService.Api.Controllers.Dictionaries {
 
   public partial class PlatformsController : ControllerBase {
-    
+    #region Retrieve
+    /// <summary>
+    ///     Method to retrieve platforms
+    /// </summary>
+    /// <param name="platform-retrieves"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-platforms")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PlatformsReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrievePlatforms() {
+      var query = new RetrievePlatformsQuery();
+      var platformsReply = await _mediator.Send(query);
+      var mappedPlatformsReply = _mapper.Map<PlatformsReply>(platformsReply);
+      return Ok(mappedPlatformsReply);
+    }
+    #endregion
+
     /// <summary>
     ///     Method to create platform
     /// </summary>

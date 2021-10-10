@@ -44,6 +44,14 @@ namespace GameService.Infrastructure.Services.Media {
       return await Task.FromResult(imagesReply);
     }
 
+    public async Task<ImagesReply> RetrieveImagesByGameId(Guid gameId) {
+      var gamesScreenshots = _context.Games.Find(gameId).Screenshots;
+      var gamesScreenshotsReply = new ImagesReply() {
+        Images = gamesScreenshots
+      };
+      return await Task.FromResult(gamesScreenshotsReply);
+    }
+
     public async Task<ImageReply> UpdateImage(Image image) {
       var newImage = _context.Images.Find(image);
       newImage.Name = image.Name;

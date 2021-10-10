@@ -13,6 +13,8 @@ namespace GameService.Application.Abstractions.Media {
 
     Task<ImagesReply> RetrieveImages();
 
+    Task<ImagesReply> RetrieveImagesByGameId(Guid gameId);
+
     Task<ImageReply> DeleteImageById(Guid id);
   }
 }

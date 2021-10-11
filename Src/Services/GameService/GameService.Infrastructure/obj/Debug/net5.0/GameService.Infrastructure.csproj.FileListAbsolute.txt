@@ -3,3 +3,8 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.I
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.AssemblyInfo.cs
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.csproj.AssemblyReference.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.AssemblyInfoInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.AssemblyInfo.cs
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.csproj.CoreCompileInputs.cache

@@ -18,7 +18,7 @@ namespace GameService.Application.Commands.VideoGame.Delete {
     }
 
     public async Task<GameReply> Handle(DeleteGameCommand request, CancellationToken cancellationToken) {
-      return await _gameService.DeleteGameById(request.Id)
+      return await _gameService.DeleteGameById(request.Id);
     }
   }
 }

@@ -10,3 +10,15 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.S
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\ref\GameService.Shared.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.pdb
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\bin\Debug\net5.0\GameService.Shared.deps.json
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\bin\Debug\net5.0\GameService.Shared.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\bin\Debug\net5.0\ref\GameService.Shared.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\bin\Debug\net5.0\GameService.Shared.pdb
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.csproj.AssemblyReference.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.AssemblyInfoInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.AssemblyInfo.cs
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\ref\GameService.Shared.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Shared\obj\Debug\net5.0\GameService.Shared.pdb

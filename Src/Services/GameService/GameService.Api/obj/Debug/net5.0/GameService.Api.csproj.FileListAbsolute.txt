@@ -27,3 +27,12 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.A
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\ref\GameService.Api.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.genruntimeconfig.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.csproj.AssemblyReference.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.GeneratedMSBuildEditorConfig.editorconfig
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.AssemblyInfoInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.AssemblyInfo.cs
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.MvcApplicationPartsAssemblyInfo.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\ref\GameService.Api.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.pdb

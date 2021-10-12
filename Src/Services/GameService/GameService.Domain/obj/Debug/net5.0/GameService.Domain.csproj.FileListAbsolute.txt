@@ -10,3 +10,15 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.D
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\ref\GameService.Domain.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.pdb
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\bin\Debug\net5.0\GameService.Domain.deps.json
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\bin\Debug\net5.0\GameService.Domain.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\bin\Debug\net5.0\ref\GameService.Domain.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\bin\Debug\net5.0\GameService.Domain.pdb
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.csproj.AssemblyReference.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.AssemblyInfoInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.AssemblyInfo.cs
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\ref\GameService.Domain.dll
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Domain\obj\Debug\net5.0\GameService.Domain.pdb

@@ -12,7 +12,7 @@ namespace GameService.Infrastructure.Persistence.EntityConfigurations.Media {
 
     protected override void ConfigureEntity(EntityTypeBuilder<Image> builder) {
       builder.Property(x => x.Name)
-          .HasMaxLength(200)
+          .HasMaxLength(30)
           .IsRequired();
     }
   }

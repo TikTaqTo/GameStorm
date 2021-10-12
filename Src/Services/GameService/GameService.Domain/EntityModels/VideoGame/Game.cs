@@ -29,9 +29,6 @@ namespace GameService.Domain.EntityModels.VideoGame {
     public string Website { get; set; }
 
     [Required]
-    public Image Poster { get; set; }
-
-    [Required]
     public virtual ICollection<Developer> Developers { get; set; }
 
     [Required]

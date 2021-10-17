@@ -15,8 +15,6 @@ namespace GameService.Api.Model.Dictionaries {
     [StringLength(250)]
     public string NormalizedName { get; set; }
 
-    public Image BackgroundImage { get; set; }
-
     public ICollection<Game> Games { get; set; }
 
     public Platform() {

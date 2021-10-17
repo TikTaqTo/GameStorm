@@ -37,7 +37,7 @@ namespace GameService.Infrastructure.Persistence {
 
     protected override void OnConfiguring(DbContextOptionsBuilder options) {
       if (!options.IsConfigured) {
-        options.UseSqlServer("Data Source=DESKTOP-4M2HR8M;Initial Catalog=WatchmanTest;Integrated Security=True");
+        options.UseSqlServer("Data Source=DESKTOP-K2327PS;Initial Catalog=GameStorm.GameService;Integrated Security=True");
       }
       base.OnConfiguring(options);
     }

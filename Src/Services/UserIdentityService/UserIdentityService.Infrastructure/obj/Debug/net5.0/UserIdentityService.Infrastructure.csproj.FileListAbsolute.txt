@@ -37,6 +37,7 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.AssemblyInfoInputs.cache
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.AssemblyInfo.cs
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.csproj.CopyComplete
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\ref\UserIdentityService.Infrastructure.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.pdb

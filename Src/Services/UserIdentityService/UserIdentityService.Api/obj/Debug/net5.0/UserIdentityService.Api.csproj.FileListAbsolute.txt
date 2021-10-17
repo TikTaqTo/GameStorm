@@ -177,6 +177,7 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\staticwebassets\UserIdentityService.Api.StaticWebAssets.xml
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\scopedcss\bundle\UserIdentityService.Api.styles.css
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.RazorTargetAssemblyInfo.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.csproj.CopyComplete
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\ref\UserIdentityService.Api.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.pdb

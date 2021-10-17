@@ -28,6 +28,7 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.AssemblyInfoInputs.cache
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.AssemblyInfo.cs
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.CoreCompileInputs.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.CopyComplete
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\ref\UserIdentityService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.pdb

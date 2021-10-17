@@ -20,8 +20,6 @@ namespace GameService.Domain.EntityModels.Dictionaries {
     [StringLength(250)]
     public string NormalizedSeoTitle { get; set; }
 
-    public Image BackgroundImage { get; set; }
-
     public virtual ICollection<Game> CreatedGames { get; set; }
 
     public int GamesCount { get; set; }

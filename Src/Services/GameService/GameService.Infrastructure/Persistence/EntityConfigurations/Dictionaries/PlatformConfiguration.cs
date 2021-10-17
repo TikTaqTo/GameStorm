@@ -17,6 +17,8 @@ namespace GameService.Infrastructure.Persistence.EntityConfigurations.Dictionari
       builder.Property(x => x.NormalizedName)
         .HasMaxLength(250)
         .IsRequired();
+      builder.HasMany(x => x.Games)
+        .WithMany(x => x.Platforms);
     }
   }
 }

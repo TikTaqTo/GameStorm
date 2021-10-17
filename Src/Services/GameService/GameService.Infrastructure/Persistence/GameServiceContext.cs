@@ -15,23 +15,23 @@ namespace GameService.Infrastructure.Persistence {
 
     #region Game
 
-    public DbSet<Game> Games { get; set; }
+    public virtual DbSet<Game> Games { get; set; }
 
     #endregion Game
 
     #region Dictionaries
 
-    public DbSet<Developer> Developers { get; set; }
-    public DbSet<Genre> Genres { get; set; }
-    public DbSet<Platform> Platforms { get; set; }
-    public DbSet<Publisher> Publishers { get; set; }
-    public DbSet<Tag> Tags { get; set; }
+    public virtual DbSet<Developer> Developers { get; set; }
+    public virtual DbSet<Genre> Genres { get; set; }
+    public virtual DbSet<Platform> Platforms { get; set; }
+    public virtual DbSet<Publisher> Publishers { get; set; }
+    public virtual DbSet<Tag> Tags { get; set; }
 
     #endregion Dictionaries
 
     #region Media
 
-    public DbSet<Image> Images { get; set; }
+    public virtual DbSet<Image> Images { get; set; }
 
     #endregion Media
 

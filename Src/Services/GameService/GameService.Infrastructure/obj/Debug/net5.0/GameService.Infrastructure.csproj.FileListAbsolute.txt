@@ -24,3 +24,4 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\ref\GameService.Infrastructure.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.pdb
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.genruntimeconfig.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Infrastructure\obj\Debug\net5.0\GameService.Infrastructure.csproj.CopyComplete

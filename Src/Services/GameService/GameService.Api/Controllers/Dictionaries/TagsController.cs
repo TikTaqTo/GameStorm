@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GameService.Api.Controllers.Dictionaries {
   [ApiController]
-  [Route("api/genres")]
+  [Route("api/tags")]
   [Produces("application/json")]
   public partial class TagsController : ControllerBase {
     private readonly IMapper _mapper;

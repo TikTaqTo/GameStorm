@@ -14,6 +14,8 @@ namespace GameService.Api.Model.Dictionaries {
     [Required]
     [StringLength(250)]
     public string NormalizedName { get; set; }
+    
+    public int GamesCount { get; set; }
 
     public ICollection<Game> Games { get; set; }
 

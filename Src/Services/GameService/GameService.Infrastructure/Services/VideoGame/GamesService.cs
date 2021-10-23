@@ -60,6 +60,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
         .Include(x => x.Developers)
         .Include(x => x.Publishers)
         .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
         .First();
 
       var gameReply = new GameReply() {
@@ -92,7 +93,8 @@ namespace GameService.Infrastructure.Services.VideoGame {
         .Include(x => x.Genres)
         .Include(x => x.Developers)
         .Include(x => x.Publishers)
-        .Include(x => x.Screenshots);
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags);
 
       var gamesReply = new GamesReply() {
         Games = games

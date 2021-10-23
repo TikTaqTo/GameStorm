@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GameService.Infrastructure.Migrations
 {
     [DbContext(typeof(GameServiceContext))]
-    [Migration("20211017104520_InitialCreate")]
+    [Migration("20211023121520_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -213,6 +213,9 @@ namespace GameService.Infrastructure.Migrations
                     b.Property<string>("DeletedReason")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("GamesCount")
+                        .HasColumnType("int");
 
                     b.Property<DateTimeOffset?>("ModifiedAt")
                         .HasColumnType("datetimeoffset");

@@ -76,6 +76,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
         .Include(x => x.Developers)
         .Include(x => x.Publishers)
         .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
         .First();
 
       var gameReply = new GameReply() {
@@ -92,6 +93,25 @@ namespace GameService.Infrastructure.Services.VideoGame {
         .Include(x => x.Developers)
         .Include(x => x.Publishers)
         .Include(x => x.Screenshots);
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
+    public async Task<GamesReply> RetrieveGamesQueryPagination(int page, int pageSize) {
+      var games = _context.Games
+        .Skip(page * pageSize)
+        .Take(pageSize)
+        .Include(x => x.Developers)
+        .Include(x => x.Genres)
+        .Include(x => x.Platforms)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .ToList();
 
       var gamesReply = new GamesReply() {
         Games = games
@@ -155,6 +175,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
         Game = game
       };
     }
+
     #endregion Binding
   }
 }

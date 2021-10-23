@@ -41,3 +41,4 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\ref\UserIdentityService.Infrastructure.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.pdb
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.genruntimeconfig.cache
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Infrastructure\obj\Debug\net5.0\UserIdentityService.Infrastructure.csproj.CopyComplete

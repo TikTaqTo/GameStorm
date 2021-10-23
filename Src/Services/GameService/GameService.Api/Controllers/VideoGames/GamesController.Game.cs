@@ -82,6 +82,24 @@ namespace GameService.Api.Controllers.VideoGames {
       var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
       return Ok(mappedGamesReply);
     }
+
+    /// <summary>
+    ///     Method to retrieve games for pagination
+    /// </summary>
+    /// <param name="retrieve-games-pagination"></param>
+    /// <param name="page"></param>
+    /// <param name="pageSize"</param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-pagination")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesPagination(int page, int pageSize) {
+      var query = new RetrieveGamesQueryPagination(page, pageSize);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
     #endregion
 
 

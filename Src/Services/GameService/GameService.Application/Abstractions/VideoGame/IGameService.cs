@@ -30,5 +30,7 @@ namespace GameService.Application.Abstractions.VideoGame {
     Task<GameReply> AddTagToGame(AddTagToGameRequest request);
 
     Task<GameReply> AddDeveloperToGame(AddDeveloperToGameRequest request);
+
+    Task<GameReply> AddPlatformToGame(AddPlatformToGameRequest request);
   }
 }

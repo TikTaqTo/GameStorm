@@ -3,6 +3,7 @@ using GameService.Api.Model.Requests;
 using GameService.Api.Model.VideoGame;
 using GameService.Application.Commands.VideoGame.AddDeveloper;
 using GameService.Application.Commands.VideoGame.AddGenre;
+using GameService.Application.Commands.VideoGame.AddPlatform;
 using GameService.Application.Commands.VideoGame.AddTag;
 using GameService.Application.Commands.VideoGame.Create;
 using GameService.Application.Commands.VideoGame.Delete;
@@ -198,6 +199,23 @@ namespace GameService.Api.Controllers.VideoGames {
     public async Task<IActionResult> AddDeveloperToGame([FromBody] AddDeveloperToGameRequest request) {
       var domainRequest = _mapper.Map<Domain.Requests.AddDeveloperToGameRequest>(request);
       var query = new AddDeveloperToGameCommand(domainRequest);
+      var gameReply = await _mediator.Send(query);
+      var mappedGameReply = _mapper.Map<GameReply>(gameReply);
+      return Ok(mappedGameReply);
+    }
+
+    /// <summary>
+    ///     Method to add platform to game
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost("add-platform-to-game")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> AddPlatformToGame([FromBody] AddPlatformToGameRequest request) {
+      var domainRequest = _mapper.Map<Domain.Requests.AddPlatformToGameRequest>(request);
+      var query = new AddPlatformToGameCommand(domainRequest);
       var gameReply = await _mediator.Send(query);
       var mappedGameReply = _mapper.Map<GameReply>(gameReply);
       return Ok(mappedGameReply);

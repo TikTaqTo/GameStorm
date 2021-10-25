@@ -178,6 +178,24 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
     }
 
+    public async Task<GameReply> AddPlatformToGame(AddPlatformToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var platform = await _context.Platforms.FindAsync(request.PlatformId);
+
+      if(game is null) {
+        throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
+      } else if (platform is null) {
+        throw new ArgumentNullException($"Could not find platform by id: {request.PlatformId}");
+      }
+
+      game.Platforms.Add(platform);
+      await _context.SaveChangesAsync();
+
+      return new GameReply {
+        Game = game
+      };
+    }
+
     #endregion Binding
   }
 }

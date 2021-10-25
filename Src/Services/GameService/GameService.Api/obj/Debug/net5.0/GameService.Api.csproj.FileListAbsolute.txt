@@ -126,6 +126,5 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\staticwebassets\GameService.Api.StaticWebAssets.xml
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\scopedcss\bundle\GameService.Api.styles.css
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.RazorTargetAssemblyInfo.cache
-W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.csproj.CopyComplete
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.genruntimeconfig.cache
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.MvcApplicationPartsAssemblyInfo.cs

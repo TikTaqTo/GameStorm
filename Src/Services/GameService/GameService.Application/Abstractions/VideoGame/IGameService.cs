@@ -34,5 +34,7 @@ namespace GameService.Application.Abstractions.VideoGame {
     Task<GameReply> AddPlatformToGame(AddPlatformToGameRequest request);
 
     Task<GameReply> AddPublisherToGame(AddPublisherToGameRequest request);
+
+    Task<GameReply> AddScreenshotToGame(AddScreenshotToGameRequest request);
   }
 }

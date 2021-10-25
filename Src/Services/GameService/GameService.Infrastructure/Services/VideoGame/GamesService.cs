@@ -214,6 +214,24 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
     }
 
+    public async Task<GameReply> AddScreenshotToGame(AddScreenshotToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var screenshot = await _context.Images.FindAsync(request.ImageId);
+
+      if (game is null) {
+        throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
+      } else if (screenshot is null) {
+        throw new ArgumentNullException($"Could not find screenshot by id: {request.ImageId}");
+      }
+
+      game.Screenshots.Add(screenshot);
+      await _context.SaveChangesAsync();
+
+      return new GameReply() {
+        Game = game
+      };
+    }
+
     #endregion Binding
   }
 }

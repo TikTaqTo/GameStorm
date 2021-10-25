@@ -5,6 +5,7 @@ using GameService.Application.Commands.VideoGame.AddDeveloper;
 using GameService.Application.Commands.VideoGame.AddGenre;
 using GameService.Application.Commands.VideoGame.AddPlatform;
 using GameService.Application.Commands.VideoGame.AddPublisher;
+using GameService.Application.Commands.VideoGame.AddScreenshot;
 using GameService.Application.Commands.VideoGame.AddTag;
 using GameService.Application.Commands.VideoGame.Create;
 using GameService.Application.Commands.VideoGame.Delete;
@@ -234,6 +235,23 @@ namespace GameService.Api.Controllers.VideoGames {
     public async Task<IActionResult> AddPublisherToGame([FromBody] AddPublisherToGameRequest request) {
       var domainRequest = _mapper.Map<Domain.Requests.AddPublisherToGameRequest>(request);
       var query = new AddPublisherToGameCommand(domainRequest);
+      var gameReply = await _mediator.Send(query);
+      var mappedGameReply = _mapper.Map<GameReply>(gameReply);
+      return Ok(mappedGameReply);
+    }
+
+    /// <summary>
+    ///     Method to add screenshot to game
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost("add-screenshot-to-game")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GameReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> AddScreenshotToGame([FromBody] AddScreenshotToGameRequest request) {
+      var domainRequest = _mapper.Map<Domain.Requests.AddScreenshotToGameRequest>(request);
+      var query = new AddScreenshotToGameCommand(domainRequest);
       var gameReply = await _mediator.Send(query);
       var mappedGameReply = _mapper.Map<GameReply>(gameReply);
       return Ok(mappedGameReply);

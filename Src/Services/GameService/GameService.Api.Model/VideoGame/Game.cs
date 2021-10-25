@@ -28,22 +28,16 @@ namespace GameService.Api.Model.VideoGame {
     [DataType(DataType.Url)]
     public string Website { get; set; }
 
-    [Required]
     public Image Poster { get; set; }
 
-    [Required]
     public virtual ICollection<Developer> Developers { get; set; }
 
-    [Required]
     public virtual ICollection<Publisher> Publishers { get; set; }
 
-    [Required]
     public virtual ICollection<Genre> Genres { get; set; }
 
-    [Required]
     public virtual ICollection<Platform> Platforms { get; set; }
 
-    [Required]
     public virtual ICollection<Image> Screenshots { get; set; }
 
     public virtual ICollection<Tag> Tags { get; set; }

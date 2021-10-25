@@ -196,6 +196,24 @@ namespace GameService.Infrastructure.Services.VideoGame {
       };
     }
 
+    public async Task<GameReply> AddPublisherToGame(AddPublisherToGameRequest request) {
+      var game = await _context.Games.FindAsync(request.GameId);
+      var publisher = await _context.Publishers.FindAsync(request.PublisherId);
+
+      if (game is null) {
+        throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
+      } else if (publisher is null) {
+        throw new ArgumentNullException($"Could not find publisher by id: {request.PublisherId}");
+      }
+
+      game.Publishers.Add(publisher);
+      await _context.SaveChangesAsync();
+
+      return new GameReply {
+        Game = game
+      };
+    }
+
     #endregion Binding
   }
 }

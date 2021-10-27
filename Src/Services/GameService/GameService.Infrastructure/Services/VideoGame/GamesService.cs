@@ -1,10 +1,12 @@
 ﻿using GameService.Application.Abstractions.VideoGame;
+using GameService.Domain.EntityModels.Dictionaries;
 using GameService.Domain.EntityModels.VideoGame;
 using GameService.Domain.Replies;
 using GameService.Domain.Requests;
 using GameService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -37,10 +39,18 @@ namespace GameService.Infrastructure.Services.VideoGame {
     }
 
     public async Task<GamesReply> RetrieveGames() {
-      var allGames = _context.Games;
+      var allGames = _context.Games
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags);
+
       var gamesReply = new GamesReply() {
         Games = allGames
       };
+
       return await Task.FromResult(gamesReply);
     }
 
@@ -104,19 +114,19 @@ namespace GameService.Infrastructure.Services.VideoGame {
     }
 
     public async Task<GamesReply> RetrieveGamesByTag(string tag) {
-      var targetTag = await _context.Tags.FindAsync(tag);
+      string normalizedTag = tag.ToLower();
+
       var games = _context.Games
-        .Where(x => x.Tags == targetTag)
-        .Include(x => x.Developers)
-        .Include(x => x.Genres)
         .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
         .Include(x => x.Publishers)
         .Include(x => x.Screenshots)
         .Include(x => x.Tags)
-        .ToListAsync();
+        .Where(x => x.Tags.Any(t => t.NormalizedName == tag));
 
-      var gamesReply = new GamesReply {
-        Games = await games
+      var gamesReply = new GamesReply() {
+        Games = games
       };
 
       return await Task.FromResult(gamesReply);

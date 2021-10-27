@@ -10,7 +10,7 @@ using System.Reflection;
 using GameService.Infrastructure.Services.Dictionaries;
 using GameService.Infrastructure.Services.Media;
 using GameService.Infrastructure.Services.VideoGame;
-
+using System.Text.Json.Serialization;
 
 namespace GameService.Infrastructure {
 
@@ -33,6 +33,10 @@ namespace GameService.Infrastructure {
       });
 
       services.AddHttpContextAccessor();
+
+      
+      services.AddControllers().AddJsonOptions(x =>
+      x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
       services.AddScoped<IGameService, GamesService>();
       services.AddScoped<IImageService, ImageService>();

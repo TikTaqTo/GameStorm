@@ -123,7 +123,26 @@ namespace GameService.Infrastructure.Services.VideoGame {
         .Include(x => x.Publishers)
         .Include(x => x.Screenshots)
         .Include(x => x.Tags)
-        .Where(x => x.Tags.Any(t => t.NormalizedName == tag));
+        .Where(x => x.Tags.Any(t => t.NormalizedName == normalizedTag));
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
+    public async Task<GamesReply> RetrieveGamesByGenre(string genre) {
+      string normalizedGenre = genre.ToLower();
+
+      var games = _context.Games
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .Where(x => x.Genres.Any(t => t.NormalizedName == normalizedGenre));
 
       var gamesReply = new GamesReply() {
         Games = games

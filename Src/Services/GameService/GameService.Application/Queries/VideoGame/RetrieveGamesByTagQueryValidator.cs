@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GameService.Application.Queries.VideoGame {
-  class RetrieveGamesByTagQueryValidator : AbstractValidator<RetrieveGamesByTagQuery> {
+  public class RetrieveGamesByTagQueryValidator : AbstractValidator<RetrieveGamesByTagQuery> {
     public RetrieveGamesByTagQueryValidator() {
       RuleFor(x => x.Tag)
         .NotNull()

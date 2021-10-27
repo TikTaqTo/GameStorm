@@ -23,6 +23,8 @@ namespace GameService.Application.Abstractions.VideoGame {
 
     Task<GamesReply> RetrieveGamesQueryPagination(int page, int pageSize);
 
+    Task<GamesReply> RetrieveGamesByTag(string tag);
+
     Task<GameReply> DeleteGameById(Guid id);
 
     Task<GameReply> AddGenreToGame(AddGenreToGameRequest request);

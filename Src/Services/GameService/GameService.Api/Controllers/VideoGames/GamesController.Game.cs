@@ -103,6 +103,23 @@ namespace GameService.Api.Controllers.VideoGames {
       var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
       return Ok(mappedGamesReply);
     }
+
+    /// <summary>
+    ///     Method to retrieve games by tag
+    /// </summary>
+    /// <param name="retrieve-games-by-tag"></param>
+    /// <param name="tag"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-by-tag")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesByTag(string tag) {
+      var query = new RetrieveGamesByTagQuery(tag);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
     #endregion
 
 

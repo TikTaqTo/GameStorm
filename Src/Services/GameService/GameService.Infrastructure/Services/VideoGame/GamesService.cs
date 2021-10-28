@@ -189,6 +189,25 @@ namespace GameService.Infrastructure.Services.VideoGame {
       return await Task.FromResult(gamesReply);
     }
 
+    public async Task<GamesReply> RetrieveGamesByDeveloper(string developer) {
+      string normalizedDeveloper = developer.ToLower();
+
+      var games = _context.Games
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Developers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .Where(x => x.Developers.Any(d => d.NormalizedSeoTitle == normalizedDeveloper));
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
     public async Task<GamesReply> RetrieveGamesQueryPagination(int page, int pageSize) {
       var games = _context.Games
         .Skip(page * pageSize)

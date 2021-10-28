@@ -171,6 +171,23 @@ namespace GameService.Api.Controllers.VideoGames {
       var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
       return Ok(mappedGamesReply);
     }
+
+    /// <summary>
+    ///     Method to retrieve games by developer
+    /// </summary>
+    /// <param name="retrieve-games-by-developer"></param>
+    /// <param name="developer"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-by-developer")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesByDeveloper(string developer) {
+      var query = new RetrieveGamesByDeveloperQuery(developer);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
     #endregion
 
 

@@ -31,6 +31,8 @@ namespace GameService.Application.Abstractions.VideoGame {
 
     Task<GamesReply> RetrieveGamesByPublisher(string publisher);
 
+    Task<GamesReply> RetrieveGamesByDeveloper(string developer);
+
     Task<GameReply> DeleteGameById(Guid id);
 
     Task<GameReply> AddGenreToGame(AddGenreToGameRequest request);

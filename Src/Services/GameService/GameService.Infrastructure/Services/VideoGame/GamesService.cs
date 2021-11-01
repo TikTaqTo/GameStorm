@@ -208,6 +208,23 @@ namespace GameService.Infrastructure.Services.VideoGame {
       return await Task.FromResult(gamesReply);
     }
 
+    public async Task<GamesReply> RetrieveGamesAtCreatedYear(DateTimeOffset date) {
+      var games = _context.Games
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Developers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .Where(x => x.CreatedAt.Year == date.Year);
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
     public async Task<GamesReply> RetrieveGamesQueryPagination(int page, int pageSize) {
       var games = _context.Games
         .Skip(page * pageSize)
@@ -287,7 +304,7 @@ namespace GameService.Infrastructure.Services.VideoGame {
       var game = await _context.Games.FindAsync(request.GameId);
       var platform = await _context.Platforms.FindAsync(request.PlatformId);
 
-      if(game is null) {
+      if (game is null) {
         throw new ArgumentNullException($"Could not find game by id: {request.GameId}");
       } else if (platform is null) {
         throw new ArgumentNullException($"Could not find platform by id: {request.PlatformId}");

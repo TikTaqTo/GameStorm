@@ -4,7 +4,6 @@ using GameService.Domain.Requests;
 using System;
 using System.Threading.Tasks;
 
-
 namespace GameService.Application.Abstractions.VideoGame {
 
   public interface IGameService {
@@ -32,6 +31,8 @@ namespace GameService.Application.Abstractions.VideoGame {
     Task<GamesReply> RetrieveGamesByPublisher(string publisher);
 
     Task<GamesReply> RetrieveGamesByDeveloper(string developer);
+
+    Task<GamesReply> RetrieveGamesAtCreatedYear(DateTimeOffset date);
 
     Task<GameReply> DeleteGameById(Guid id);
 

@@ -21,7 +21,9 @@ using System.Threading.Tasks;
 namespace GameService.Api.Controllers.VideoGames {
 
   public partial class GamesController : ControllerBase {
+
     #region Retrieve
+
     /// <summary>
     ///     Method to retrieve games
     /// </summary>
@@ -188,8 +190,25 @@ namespace GameService.Api.Controllers.VideoGames {
       var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
       return Ok(mappedGamesReply);
     }
-    #endregion
 
+    /// <summary>
+    ///     Method to retrieve games by created at year
+    /// </summary>
+    /// <param name="retrieve-games-by-created-at-year"></param>
+    /// <param name="date"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-by-created-at-year")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesByCreatedAtYear(DateTimeOffset date) {
+      var query = new RetrieveGamesAtCreatedYearQuery(date);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
+
+    #endregion Retrieve
 
     /// <summary>
     ///     Method to create game

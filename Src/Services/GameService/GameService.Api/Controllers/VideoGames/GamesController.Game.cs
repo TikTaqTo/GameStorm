@@ -208,6 +208,23 @@ namespace GameService.Api.Controllers.VideoGames {
       return Ok(mappedGamesReply);
     }
 
+    /// <summary>
+    ///     Method to retrieve games by release at year
+    /// </summary>
+    /// <param name="retrieve-games-by-release-at-year"></param>
+    /// <param name="date"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-by-release-at-year")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesByReleaseAtYear(DateTimeOffset date) {
+      var query = new RetrieveGamesAtReleaseYearQuery(date);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
+
     #endregion Retrieve
 
     /// <summary>

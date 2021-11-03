@@ -34,6 +34,8 @@ namespace GameService.Application.Abstractions.VideoGame {
 
     Task<GamesReply> RetrieveGamesAtCreatedYear(DateTimeOffset date);
 
+    Task<GamesReply> RetrieveGamesAtReleaseYear(DateTimeOffset date);
+
     Task<GameReply> DeleteGameById(Guid id);
 
     Task<GameReply> AddGenreToGame(AddGenreToGameRequest request);

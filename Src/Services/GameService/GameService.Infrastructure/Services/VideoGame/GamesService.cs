@@ -225,6 +225,23 @@ namespace GameService.Infrastructure.Services.VideoGame {
       return await Task.FromResult(gamesReply);
     }
 
+    public async Task<GamesReply> RetrieveGamesAtReleaseYear(DateTimeOffset date) {
+      var games = _context.Games
+        .Include(x => x.Platforms)
+        .Include(x => x.Genres)
+        .Include(x => x.Developers)
+        .Include(x => x.Developers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .Where(x => x.ReleaseDate.Year == date.Year);
+
+      var gamesReply = new GamesReply() {
+        Games = games
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
     public async Task<GamesReply> RetrieveGamesQueryPagination(int page, int pageSize) {
       var games = _context.Games
         .Skip(page * pageSize)

@@ -225,6 +225,23 @@ namespace GameService.Api.Controllers.VideoGames {
       return Ok(mappedGamesReply);
     }
 
+    /// <summary>
+    ///     Method to retrieve games by all query at year
+    /// </summary>
+    /// <param name="retrieve-games-by-all-query"></param>
+    /// <param name="date"></param>
+    /// <returns></returns>
+    [HttpGet("retrieve-games-by-all-query")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GamesReply))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(CommonReply))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(CommonReply))]
+    public async Task<IActionResult> RetrieveGamesByAllQuery(string genre, string gameSortOrder, DateTimeOffset? dateReleaseStart, DateTimeOffset? dateReleaseEnd, string platform, int page = 1, int pageSize = 20) {
+      var query = new RetrieveGamesByAllQuery(genre, gameSortOrder, platform, dateReleaseStart, dateReleaseEnd, page, pageSize);
+      var gamesReply = await _mediator.Send(query);
+      var mappedGamesReply = _mapper.Map<GamesReply>(gamesReply);
+      return Ok(mappedGamesReply);
+    }
+
     #endregion Retrieve
 
     /// <summary>

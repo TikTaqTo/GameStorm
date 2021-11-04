@@ -261,6 +261,79 @@ namespace GameService.Infrastructure.Services.VideoGame {
       return await Task.FromResult(gamesReply);
     }
 
+    public async Task<GamesReply> RetrieveGamesByAllQuery(string genre, string gameSortOrder, string platform, DateTimeOffset? dateReleaseStart, DateTimeOffset? dateReleaseEnd, int page = 1, int pageSize = 20) {
+      IQueryable<Game> games = _context.Games
+        .Include(x => x.Developers)
+        .Include(x => x.Genres)
+        .Include(x => x.Platforms)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags);
+
+      //Чекнуть разницу при использований в начале include и в конце
+
+      if (!String.IsNullOrWhiteSpace(genre)) {
+        string normalizedGenre = genre.ToLower();
+        games = games.Where(x => x.Genres.Any(g => g.NormalizedName == normalizedGenre));
+      }
+
+      if (!String.IsNullOrWhiteSpace(platform)) {
+        string normalizedPlatform = platform.ToLower();
+        games = games.Where(x => x.Platforms.Any(p => p.NormalizedName == normalizedPlatform));
+      }
+
+      if (dateReleaseEnd != null && dateReleaseStart != null) {
+        games = games.Where(x => x.ReleaseDate >= dateReleaseStart && x.ReleaseDate <= dateReleaseEnd);
+      }
+
+      switch (gameSortOrder) {
+        case "Name":
+          games = games.OrderBy(x => x.NormalizedTitle);
+          break;
+
+        case "Name_Desc":
+          games = games.OrderByDescending(x => x.NormalizedTitle);
+          break;
+
+        case "Release_Date":
+          games = games.OrderBy(x => x.ReleaseDate);
+          break;
+
+        case "Release_Date_Desc":
+          games = games.OrderByDescending(x => x.ReleaseDate);
+          break;
+
+        case "Created_Date":
+          games = games.OrderBy(x => x.CreatedAt);
+          break;
+
+        case "Created_Date_Desc":
+          games = games.OrderByDescending(x => x.CreatedAt);
+          break;
+
+        default:
+          games = games.OrderBy(x => x.NormalizedTitle);
+          break;
+      }
+
+      var searchedGames =
+        games.Skip((page - 1) * pageSize)
+        .Take(pageSize)
+        .Include(x => x.Developers)
+        .Include(x => x.Genres)
+        .Include(x => x.Platforms)
+        .Include(x => x.Publishers)
+        .Include(x => x.Screenshots)
+        .Include(x => x.Tags)
+        .ToList();
+
+      var gamesReply = new GamesReply() {
+        Games = searchedGames
+      };
+
+      return await Task.FromResult(gamesReply);
+    }
+
     #region Binding
 
     public async Task<GameReply> AddGenreToGame(AddGenreToGameRequest request) {

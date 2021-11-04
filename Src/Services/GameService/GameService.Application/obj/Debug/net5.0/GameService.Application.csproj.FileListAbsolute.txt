@@ -19,3 +19,4 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\ref\GameService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.pdb
+W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.csproj.CopyComplete

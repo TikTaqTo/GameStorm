@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8YfNBJH8jNYhMIaqth26q9gadSOlubgzTieiq4QOKZmUdCA8Fh+rE07CabFpTLi4TuqGtIY1d7BpBEhFADwS6g==",
+  "dgSpecHash": "xPw6pdOqoYgwWu+FG9JhzkIlEK0D98vCiwjOjnVNXZF627rQTY7uhBsDvvWaCQbz9kAdJOh0pfzm9soKpzjPSg==",
   "success": true,
   "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\GameService\\GameService.Infrastructure\\GameService.Infrastructure.csproj",
   "expectedPackageFiles": [

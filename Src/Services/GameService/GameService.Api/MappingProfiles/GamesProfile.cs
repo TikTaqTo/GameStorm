@@ -4,7 +4,9 @@ using GameService.Api.Model.Replies;
 using GameService.Api.Model.VideoGame;
 
 namespace GameService.Api.MappingProfiles {
+
   public class GamesProfile : Profile {
+
     public GamesProfile() {
       CreateMap<GameReply, Domain.Replies.GameReply>().ReverseMap();
       CreateMap<GamesReply, Domain.Replies.GamesReply>().ReverseMap();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xjmz09IUNz8kHDnK3909re1DB9Qsf9AGhFpIQYAdc26EUolDxARs3zZolVUDjVUMu9YJLZA8dxtH9r/0c27vQg==",
+  "dgSpecHash": "q5x1cAigoCzkTcC+E1IDhqRg9vB3x0UhOIM7bFns0hoWmiT5Xi7/5EzQNZ4ZBUZoheSkDEC4PfVLVmd1/I9ddQ==",
   "success": true,
   "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\GameService\\GameService.IntegrationTests\\GameService.IntegrationTests.csproj",
   "expectedPackageFiles": [

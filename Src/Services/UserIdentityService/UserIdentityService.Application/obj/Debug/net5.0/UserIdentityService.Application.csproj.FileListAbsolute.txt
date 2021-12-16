@@ -31,4 +31,3 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\ref\UserIdentityService.Application.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.pdb
-W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Application\obj\Debug\net5.0\UserIdentityService.Application.csproj.CopyComplete

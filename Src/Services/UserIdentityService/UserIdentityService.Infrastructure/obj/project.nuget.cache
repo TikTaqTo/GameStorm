@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z4Jtpo1UEkectkWgqfJc43lmgysRtjZESKU7ZMaQCRXOpujvrRIpG1HNB+CJRghDsVo8gvyrUQB3WbPPjGphhw==",
+  "dgSpecHash": "CxXDNx5MtJHG+LvETwmm/ImYAqTcpBACWhtwZMy03pJXRAEL0gnujQ5CmdD2hLG10t7/Fthh15QAjYfycV846Q==",
   "success": true,
   "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
   "expectedPackageFiles": [

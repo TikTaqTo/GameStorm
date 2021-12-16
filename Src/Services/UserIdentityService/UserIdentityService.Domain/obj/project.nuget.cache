@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VNf/qcEhRlpw9A42iR+ioDa0dM3Jl6E0hPHcjL+Mup8cEa0aLl1J+qAWWShI79Enjs6/0MzHqhLZDxwF87Zm/g==",
+  "dgSpecHash": "9LPmKNodHMSP4zhYptqPSj5+DziqaCgxc/8WEKgFcVMhqr8HbavDsmNEPnONiQoCA3N/NF9j3Qi1dxdCDNdZoQ==",
   "success": true,
-  "projectFilePath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.10\\microsoft.aspnetcore.cryptography.keyderivation.5.0.10.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {}
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {}
   },
   "projects": {
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
         "projectName": "UserIdentityService.Api.Models",
-        "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\obj\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

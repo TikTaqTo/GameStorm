@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {}
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {}
   },
   "projects": {
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
         "projectName": "UserIdentityService.Application",
-        "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\obj\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
-                "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
               },
-              "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
-                "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj"
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
         "projectName": "UserIdentityService.Domain",
-        "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,14 +167,14 @@
         }
       }
     },
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
         "projectName": "UserIdentityService.Infrastructure",
-        "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\UserIdentityService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,11 +195,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
-                "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj"
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Application\\UserIdentityService.Application.csproj"
               },
-              "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
-                "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
+              "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Domain\\UserIdentityService.Domain.csproj"
               }
             }
           }
@@ -256,14 +256,14 @@
         }
       }
     },
-    "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
+    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
         "projectName": "UserIdentityService.Shared",
-        "projectPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\GamersWorld\\Backend\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\obj\\",
+        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

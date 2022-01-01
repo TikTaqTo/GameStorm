@@ -372,11 +372,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "AutoFixture": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[4.17.0, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
             },

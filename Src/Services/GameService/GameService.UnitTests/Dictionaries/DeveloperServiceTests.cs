@@ -38,7 +38,7 @@ namespace GameService.UnitTests.Dictionaries {
     }
 
     [Fact]
-    public async Task UpdateDeveloper_saveDeveloperDB_ReturnDeveloperReply() {
+    public async Task UpdateDeveloper_saveDeveloperDB_CallingSaveChangesAsync() {
       // arrange
 
       // act

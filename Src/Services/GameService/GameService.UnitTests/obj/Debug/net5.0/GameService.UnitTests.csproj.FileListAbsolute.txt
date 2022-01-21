@@ -274,7 +274,6 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.U
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -323,3 +322,15 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.U
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\GameService.Infrastructure.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\GameService.Application.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\GameService.Shared.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\AutoFixture.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Fare.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\Moq.EntityFrameworkCore.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.UnitTests\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

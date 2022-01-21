@@ -32,3 +32,6 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.A
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\ref\GameService.Application.dll
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\bin\Debug\net5.0\GameService.Application.runtimeconfig.json
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\bin\Debug\net5.0\GameService.Application.runtimeconfig.dev.json
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Application\obj\Debug\net5.0\GameService.Application.genruntimeconfig.cache

@@ -63,7 +63,7 @@ namespace GameService.UnitTests.Dictionaries {
     }
 
     [Fact]
-    public async Task RetrieveDevelopers_developersReplyReturn_ReturnTwoDevelopers() {
+    public async Task RetrieveTag_tagsReplyReturn_ReturnTwoTags() {
       // Arrange
       TagsReply tags = new TagsReply() {
         Tags = GenerateTags().ToList()

@@ -82,7 +82,6 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserI
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\staticwebassets\UserIdentityService.Api.StaticWebAssets.Manifest.cache
-C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\staticwebassets\UserIdentityService.Api.StaticWebAssets.xml
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\scopedcss\bundle\UserIdentityService.Api.styles.css
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.csproj.CopyComplete
@@ -181,3 +180,4 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\ref\UserIdentityService.Api.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.pdb
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.genruntimeconfig.cache
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\bin\Debug\net5.0\UserIdentityService.Api.StaticWebAssets.xml

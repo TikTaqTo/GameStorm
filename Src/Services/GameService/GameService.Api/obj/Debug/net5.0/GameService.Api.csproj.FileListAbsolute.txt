@@ -19,7 +19,6 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.A
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\staticwebassets\GameService.Api.StaticWebAssets.Manifest.cache
-C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\staticwebassets\GameService.Api.StaticWebAssets.xml
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\scopedcss\bundle\GameService.Api.styles.css
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\obj\Debug\net5.0\GameService.Api.csproj.CopyComplete
@@ -214,3 +213,4 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.A
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Infrastructure.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Shared.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Domain.pdb
+C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Api.StaticWebAssets.xml

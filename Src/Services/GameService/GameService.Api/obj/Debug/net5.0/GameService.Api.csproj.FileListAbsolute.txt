@@ -213,4 +213,3 @@ C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.A
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Infrastructure.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Shared.pdb
 C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Domain.pdb
-C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\GameService\GameService.Api\bin\Debug\net5.0\GameService.Api.StaticWebAssets.xml

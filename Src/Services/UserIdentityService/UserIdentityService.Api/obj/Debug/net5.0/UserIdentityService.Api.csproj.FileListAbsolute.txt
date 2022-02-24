@@ -180,4 +180,3 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\ref\UserIdentityService.Api.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.pdb
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\obj\Debug\net5.0\UserIdentityService.Api.genruntimeconfig.cache
-C:\Users\adai0\Documents\GitHub\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Api\bin\Debug\net5.0\UserIdentityService.Api.StaticWebAssets.xml

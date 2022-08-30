@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj": {}
+    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj": {
+    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj",
+        "projectUniqueName": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj",
         "projectName": "UserIdentityService.UnitTests",
-        "projectPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj",
+        "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\UserIdentityService.UnitTests.csproj",
         "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\obj\\",
+        "outputPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +67,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

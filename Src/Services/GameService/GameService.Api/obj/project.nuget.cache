@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ci0xFhXIzVfJzo6J8A5GqE/l+qZhLb3XyEhEZKKbJ0GlosnSYfa7kYqXzUHqBeL/uAfd+bQVlLyZVQH5ds9pAQ==",
+  "dgSpecHash": "hTeuKac71JnoHn68hijWRIgKcSQEEr3dmoBEu/Wg7xb3fJVkHpokFo8e7Kwf7uJjUmG7zADFg1I4dX98+XtNvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.Api\\GameService.Api.csproj",
+  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Api\\GameService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

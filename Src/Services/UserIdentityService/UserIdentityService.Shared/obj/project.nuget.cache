@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oAxORKLc0jUWIaLBC1p+QuNJ3wx3hRiSqjrmQ+EiwOFjrDVF2N8P1Kb0JJzWAOEKvbmqUlCgEYrmfpuPwNWckw==",
+  "dgSpecHash": "q3OnZICnmWDeWzpmePX7NgrQ8B1t3/2a2zB9FP0JTCPjvC2y+Xlmmohr8gFswmgG8XH1s3qip8atp2/tMw1zeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"

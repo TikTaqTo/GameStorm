@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ahPwX1xuN4fhlpJ7RureQmiMByzOLQzxYtjJ2ie6zKteixwDujyVVelOQTbfVDyuZSzA5tPafR2Zbys2XL3sAw==",
+  "dgSpecHash": "AFCq2GCJRmZB4HLXZOaVCCMphV82vagGslLcN74Dv9a9w4kXhOErppFOJjvuOmP3DMKiTBYXCH40LreD5q7o9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.IntegrationTests\\UserIdentityService.IntegrationTests.csproj",
+  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.IntegrationTests\\UserIdentityService.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

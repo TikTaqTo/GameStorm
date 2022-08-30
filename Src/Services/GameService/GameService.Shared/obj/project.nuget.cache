@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vpI7C7g0uUiGppe3Y+fEZLxDQV3/ae9DH7hyIBf3l0w96IwmFsJmAPQtj1UoIdVRxiTS9NQddBfEQC5IYwH6Kg==",
+  "dgSpecHash": "+IThYcIfzbtGOeO8KosSapDt46hGRCw3dXHfC2/f0kMSFSK/BCdl/m3gXLzAAF2FqvDcZSA9QvlUmFuV0BsbVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adai0\\Documents\\GitHub\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
+  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adai0\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\adai0\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

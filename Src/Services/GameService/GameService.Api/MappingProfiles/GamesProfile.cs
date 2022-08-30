@@ -18,6 +18,7 @@ namespace GameService.Api.MappingProfiles {
       CreateMap<AddPlatformToGameRequest, Domain.Requests.AddPlatformToGameRequest>().ReverseMap();
       CreateMap<AddPublisherToGameRequest, Domain.Requests.AddPublisherToGameRequest>().ReverseMap();
       CreateMap<AddTagToGameRequest, Domain.Requests.AddTagToGameRequest>().ReverseMap();
+      CreateMap<AddScreenshotToGameRequest, Domain.Requests.AddScreenshotToGameRequest>().ReverseMap();
     }
   }
 }

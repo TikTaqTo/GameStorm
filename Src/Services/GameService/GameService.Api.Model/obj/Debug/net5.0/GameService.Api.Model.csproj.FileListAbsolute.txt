@@ -22,3 +22,15 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\ref\GameService.Api.Model.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.pdb
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.deps.json
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.dll
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.pdb
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.csproj.AssemblyReference.cache
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.GeneratedMSBuildEditorConfig.editorconfig
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.AssemblyInfoInputs.cache
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.AssemblyInfo.cs
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.csproj.CoreCompileInputs.cache
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.dll
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\refint\GameService.Api.Model.dll
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.pdb
+W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\ref\GameService.Api.Model.dll

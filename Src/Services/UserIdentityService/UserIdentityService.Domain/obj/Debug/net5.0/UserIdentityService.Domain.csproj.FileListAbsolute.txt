@@ -22,3 +22,15 @@ W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\Use
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\ref\UserIdentityService.Domain.dll
 W:\WorkFolder\GamersWorld\Backend\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.pdb
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\bin\Debug\net5.0\UserIdentityService.Domain.deps.json
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\bin\Debug\net5.0\UserIdentityService.Domain.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\bin\Debug\net5.0\UserIdentityService.Domain.pdb
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.csproj.AssemblyReference.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.AssemblyInfoInputs.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.AssemblyInfo.cs
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\refint\UserIdentityService.Domain.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\UserIdentityService.Domain.pdb
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\UserIdentityService\UserIdentityService.Domain\obj\Debug\net5.0\ref\UserIdentityService.Domain.dll

@@ -1,38 +1,47 @@
 {
   "format": 1,
   "restore": {
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj": {}
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj": {}
   },
   "projects": {
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj": {
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj",
         "projectName": "GameService.Application",
-        "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj",
-        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\obj\\",
+        "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\GameService.Application.csproj",
+        "packagesPath": "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ezhekhan.adai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.next.local/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj": {
-                "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj"
+              "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj": {
+                "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj"
               },
-              "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj": {
-                "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj"
+              "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj": {
+                "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj"
               }
             }
           }
@@ -44,36 +53,36 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[12.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[12.0.0, )"
             },
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.3.3, )"
+              "version": "[11.5.1, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[10.3.3, )"
+              "version": "[11.5.1, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[12.0.1, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[11.1.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[6.1.0, )"
             }
           },
           "imports": [
@@ -92,33 +101,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj": {
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
         "projectName": "GameService.Domain",
-        "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
-        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\GameService.Domain.csproj",
+        "packagesPath": "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ezhekhan.adai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.next.local/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -129,16 +147,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[7.0.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.2, )"
             }
           },
           "imports": [
@@ -157,33 +175,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj": {
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
         "projectName": "GameService.Shared",
-        "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
-        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\obj\\",
+        "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\GameService.Shared.csproj",
+        "packagesPath": "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ezhekhan.adai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.next.local/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -194,8 +221,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
@@ -238,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

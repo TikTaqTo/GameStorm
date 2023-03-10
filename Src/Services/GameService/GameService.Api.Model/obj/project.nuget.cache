@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "7DSsmp2dnotjwk3iMc/wKO/cbvfgBQUg9NPLMScvqZhSI8g8m9Nn4dj4iIPIP7Uy/Arc3GHIzhNTKED2hSI+NQ==",
+  "dgSpecHash": "xNLprlgOM4wtbQwyAf+8jfe6QUcOutv+H3xYVjsGPrP9UQtCY6XjEAu5/Kcgnff1LKCludK6Vaoh5mb0VsYxeA==",
   "success": true,
-  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\GameService\\GameService.Api.Model\\GameService.Api.Model.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\GameService\\GameService.Api.Model\\GameService.Api.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.next.local/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

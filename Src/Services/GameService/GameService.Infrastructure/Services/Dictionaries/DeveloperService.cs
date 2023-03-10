@@ -3,6 +3,7 @@ using GameService.Domain.EntityModels.Dictionaries;
 using GameService.Domain.Replies;
 using GameService.Infrastructure.Persistence;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.Dictionaries {
@@ -11,7 +12,18 @@ namespace GameService.Infrastructure.Services.Dictionaries {
     private readonly GameServiceContext _context;
 
     public DeveloperService(GameServiceContext context) {
-      _context = context;
+        _context = context;
+
+        List<Developer> developers = new List<Developer>() {
+            new Developer (){ Id = 1, SeoTitle = "CD PROJEKT RED", NormalizedSeoTitle = "cd projekt red" },
+            new Developer (){ Id = 2, SeoTitle = "Electronic Arts", NormalizedSeoTitle = "electronic arts" },
+            new Developer (){ Id = 3, SeoTitle = "Valve", NormalizedSeoTitle = "valve" },
+            new Developer (){ Id = 4, SeoTitle = "Sony Interactive Entertainment", NormalizedSeoTitle = "sony interactive entertainment" },
+            new Developer (){ Id = 5, SeoTitle = "Rockstar Games", NormalizedSeoTitle = "rockstar games" },
+        };  
+
+        _context.Developers.AddRange(developers);
+        _context.SaveChanges();
     }
 
     public async Task<DeveloperReply> CreateDeveloper(Developer developer) {

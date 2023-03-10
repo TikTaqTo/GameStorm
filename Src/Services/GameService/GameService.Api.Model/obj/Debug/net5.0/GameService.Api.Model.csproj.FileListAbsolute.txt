@@ -34,3 +34,15 @@ W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\De
 W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\refint\GameService.Api.Model.dll
 W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.pdb
 W:\WorkFolder\C#\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\ref\GameService.Api.Model.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.deps.json
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\bin\Debug\net5.0\GameService.Api.Model.pdb
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.csproj.AssemblyReference.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.AssemblyInfoInputs.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.AssemblyInfo.cs
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.csproj.CoreCompileInputs.cache
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\refint\GameService.Api.Model.dll
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\GameService.Api.Model.pdb
+C:\Users\ezhekhan.adai\Desktop\GameStore\GameStorm\Src\Services\GameService\GameService.Api.Model\obj\Debug\net5.0\ref\GameService.Api.Model.dll

@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "qt3/6P3iyfs3iX4UriKuuOcNEUXwiyJ9/FCNnc+mEM3l+hrtGy0wYIBwqzxUWyWQqtYBdVlqbd3w5rHA7/ed+A==",
+  "dgSpecHash": "OqZ60xYe2u4ONB1uAQUVfyqYssYlv6n/kLxX+Yra+6tU24aND7cXq56pUBx6gcyuUg4cUZQArcKZruCvpDiLKA==",
   "success": true,
-  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.next.local/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

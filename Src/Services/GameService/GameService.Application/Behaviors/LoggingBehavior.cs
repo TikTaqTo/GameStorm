@@ -22,7 +22,7 @@ namespace GameService.Application.Behaviors {
     }
 
     public async Task<TResponse> Handle(TRequest request,
-            CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next) {
+            RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken) {
       _logger.LogInformation("----- Handling command {CommandName} ({@Command})", request.GetGenericTypeName(),
           request);
 

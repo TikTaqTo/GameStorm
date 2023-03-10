@@ -6,8 +6,10 @@ using GameService.Domain.Requests;
 using GameService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.VideoGame {
@@ -16,7 +18,124 @@ namespace GameService.Infrastructure.Services.VideoGame {
     private readonly GameServiceContext _context;
 
     public GamesService(GameServiceContext context) {
-      _context = context;
+        _context = context;
+
+        List<Game> games = new()
+        {
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Grand Theft Auto V",
+                NormalizedTitle = "grand theft auto v",
+                Website = "http://www.rockstargames.com/V/",
+                AgeRating = "17+",
+                ReleaseDate = new DateTime(2020, 2, 10),
+                TBA = true,
+                Description = "Хорошая игра",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Dying Light 2 Stay Human",
+                NormalizedTitle = "dying light 2 stay human",
+                Website = "https://dyinglightgame.com/",
+                AgeRating = "Без рейтинга",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "Очень хорошая игра",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Ведьмак 3: Дикая охота",
+                NormalizedTitle = "ведьмак 3: дикая охота",
+                Website = "https://thewitcher.com/en/witcher3",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "Очень хорошая игра",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Portal 2",
+                NormalizedTitle = "portal 2",
+                Website = "http://www.thinkwithportals.com/",
+                AgeRating = "10+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "Хорошая игра",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "God of War",
+                NormalizedTitle = "god of war",
+                Website = "https://godofwar.playstation.com/",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 9, 13),
+                Description = "Очень хорошая игра",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Darksiders III",
+                NormalizedTitle = "darksiders iii",
+                Website = "http://www.darksiders.com",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "В Darksiders III вам предстоит вернуться на Землю в роли ЯРОСТИ, которая намерена найти и уничтожить Семь смертных грехов. Darksiders III — долгожданная третья глава популярной серии Darksiders.",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Одни из нас",
+                NormalizedTitle = "одни из нас",
+                Website = "http://www.thelastofus.playstation.com/",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "О грибе-паразите кордицепсе я давным-давно то ли вычитал в какой-то энциклопедии с картинками, то ли увидел в какой-то познавательной телепередаче, и больше к теме по понятным причинам не возвращался. Это жуть несусветная: гриб селится в насекомое, захватывает его нервную систему и заставляет взобраться на высокое растение. Дальше эта дрянь прорастает сквозь тело жертвы и взрывается, распространяя споры в воздухе. Те «засевают» других насекомых, и вот вам самый настоящий зомби-апокалипсис, который, возможно, прямо сейчас действительно происходит с какой-нибудь муравьиной цивилизацией в далеких лесах Амазонки. В реальности кордицепс не опасен для человека, но по сюжету The Last of Us он мутировал и таки устроил веселую жизнь людям. Жутко? Не то слово. От одной лишь мысли о том, что паразит реален, становится физически дискомфортно.",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Red Dead Redemption 2",
+                NormalizedTitle = "red dead redemption 2",
+                Website = "http://www.rockstargames.com/V/",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2021, 2, 4),
+                Description = "Артур Морган и другие подручные Датча ван дер Линде вынуждены пуститься в бега. Их банде предстоит участвовать в кражах, грабежах и перестрелках в самом сердце Америки. За ними по пятам идут федеральные агенты и лучшие в стране охотники за головами, а саму банду разрывают внутренние противоречия. Артуру предстоит выбрать, что для него важнее: его собственные идеалы или же верность людям, которые его взрастили.В комплекте новый контент для сюжетного режима, полноценный фоторежим и доступ к совместной игре в мире Red Dead Online, позволяющие игрокам найти свое место на Диком Западе. Вы можете выслеживать опасных преступников в роли охотника за головами, развивать собственное дело в роли торговца, разыскивать уникальные сокровища в роли коллекционера и открыть подпольное производство алкоголя в роли самогонщика, а также многое другое.Red Dead Redemption 2 для PC задействует всю мощь современных компьютеров, чтобы максимально правдоподобно представить каждый уголок этого огромного, насыщенного деталями мира. В числе графических и технических усовершенствований – увеличенная дальность прорисовки; улучшения в системе глобального освещения и рассеянного затенения, обеспечивающие более реалистичную смену времени суток; улучшенные отражения и тени более высокого разрешения на всех расстояниях; тесселяция текстур древесной коры и более качественные текстуры травы и меха, за счет чего животные и растения смотрятся еще натуралистичнее.Кроме того, Red Dead Redemption 2 для PC поддерживает режим HDR, разрешение 4K и выше, конфигурации с несколькими мониторами, широкоэкранные мониторы, более высокую частоту кадров и не только.",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Uncharted 4: Путь Вора",
+                NormalizedTitle = "uncharted 4: путь вора",
+                Website = "https://www.unchartedthegame.com/en-us/games/uncharted-4/",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "Uncharted 4: Путь Вора — это игра в жанрах экшены и приключения, разработанная Naughty Dog. Она была выпущена в 2016. Её издателем выступила компания Sony Computer Entertainment. Рейтинг Uncharted 4: Путь Вора на Metacritic составляет 93. Он расчитывается на основе профессиональных рецензий в СМИ. Согласно нашим пользователям, самая популярная оценка игры — Шедевр.Uncharted 4: Путь Вора можно поиграть на PlayStation 4 и PlayStation 5. Можно купить игру в PlayStation Store.Bruce Straley и Neil Druckmann срежиссировали игру. Музыка в игре была написана Henry Jackman.",
+                Status = "Вышел"
+            },
+            new Game() {
+                Id = Guid.NewGuid(),
+                Title = "Elden Ring",
+                NormalizedTitle = "elden ring",
+                Website = "https://en.bandainamcoent.eu/elden-ring/elden-ring",
+                AgeRating = "17+",
+                TBA = true,
+                ReleaseDate = new DateTime(2022, 2, 4),
+                Description = "НОВЫЙ ФЭНТЕЗИЙНЫЙ РОЛЕВОЙ БОЕВИК.Восстань, погасшая душа! Междуземье ждёт своего повелителя. Пусть благодать приведёт тебя к Кольцу Элден.• Огромный захватывающий мирОгромный мир с открытыми полями, множеством ситуаций и гигантскими подземельями, где сложные трёхмерные конструкции сочетаются воедино. Путешествуйте, преодолевайте смертельные опасности и радуйтесь успехам.• Создайте своего персонажаВы можете не только изменить внешность персонажа, но также комбинировать оружие, броню и предметы. Развивайте персонажа по своему вкусу. Наращивайте мышцы или постигайте таинства магии.• Эпическая драма, выросшая из мифаМногослойная история, разбитая на фрагменты. Эпическая драма, в которой мысли персонажей пересекаются в Междуземье.• Уникальный сетевой режим, приближающий вас к другим игрокамПомимо многопользовательского режима, в котором вы напрямую подключаетесь к другим игрокам и путешествуете вместе, есть асинхронный сетевой режим, позволяющий ощутить присутствие других игроков.",
+                Status = "Вышел"
+            }
+        };
+
+        _context.AddRange(games);
+        _context.SaveChanges();
     }
 
     public async Task<GameReply> CreateGame(Game game) {

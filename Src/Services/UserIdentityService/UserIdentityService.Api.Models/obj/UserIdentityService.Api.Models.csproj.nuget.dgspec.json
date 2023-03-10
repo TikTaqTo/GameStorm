@@ -1,28 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {}
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {}
   },
   "projects": {
-    "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
+    "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
         "projectName": "UserIdentityService.Api.Models",
-        "projectPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
-        "packagesPath": "C:\\Users\\adai0\\.nuget\\packages\\",
-        "outputPath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\obj\\",
+        "projectPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\UserIdentityService.Api.Models.csproj",
+        "packagesPath": "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Api.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adai0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ezhekhan.adai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.next.local/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net5.0": {
@@ -50,12 +59,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

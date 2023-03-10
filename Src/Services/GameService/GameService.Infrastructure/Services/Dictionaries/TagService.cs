@@ -3,6 +3,7 @@ using GameService.Domain.EntityModels.Dictionaries;
 using GameService.Domain.Replies;
 using GameService.Infrastructure.Persistence;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.Dictionaries {
@@ -11,7 +12,38 @@ namespace GameService.Infrastructure.Services.Dictionaries {
     private readonly GameServiceContext _context;
 
     public TagService(GameServiceContext context) {
-      _context = context;
+        _context = context;
+          
+        List<Tag> tags = new List<Tag>() 
+        {
+            new Tag()
+            {
+                Id = 1,
+                Name = "Action",
+                NormalizedName = "action",
+            },
+            new Tag()
+            {
+                Id = 2,
+                Name = "Indie",
+                NormalizedName = "indie",
+            },
+            new Tag()
+            {
+                Id = 3,
+                Name = "Adventure",
+                NormalizedName = "adventure",
+            },
+            new Tag()
+            {
+                Id = 4,
+                Name = "Strategy",
+                NormalizedName = "strategy",
+            },
+        };
+
+        _context.Tags.AddRange(tags);
+        _context.SaveChanges();
     }
 
     public async Task<TagReply> CreateTag(Tag tag) {

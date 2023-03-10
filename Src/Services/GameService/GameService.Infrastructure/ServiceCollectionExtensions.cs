@@ -18,18 +18,10 @@ namespace GameService.Infrastructure {
 
     public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration) {
+      
+
       services.AddDbContext<GameServiceContext>(options => {
-        options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-            sqlOptions => {
-              sqlOptions.MigrationsAssembly(typeof(ServiceCollectionExtensions).GetTypeInfo().Assembly
-                          .GetName().Name);
-              sqlOptions.EnableRetryOnFailure(
-                          Convert.ToInt32(configuration.GetSection("InfrastructureSettings:MaxRetryCount").Value),
-                          TimeSpan.FromSeconds(
-                              Convert.ToInt32(configuration.GetSection("InfrastructureSettings:MaxDelayCount")
-                                  .Value)),
-                          null);
-            });
+        options.UseInMemoryDatabase(configuration.GetConnectionString("DefaultConnection"));
       });
 
       services.AddHttpContextAccessor();

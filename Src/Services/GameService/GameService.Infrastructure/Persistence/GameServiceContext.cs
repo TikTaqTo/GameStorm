@@ -5,10 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameService.Infrastructure.Persistence {
 
-  public class GameServiceContext : DbContext {
+  public class GameServiceContext : DbContext 
+  {
 
-    public GameServiceContext() {
-    }
+
+    public GameServiceContext() { }
 
     public GameServiceContext(DbContextOptions<GameServiceContext> options) : base(options) {
     }
@@ -36,8 +37,9 @@ namespace GameService.Infrastructure.Persistence {
     #endregion Media
 
     protected override void OnConfiguring(DbContextOptionsBuilder options) {
-      if (!options.IsConfigured) {
-        options.UseSqlServer("Data Source=DESKTOP-K2327PS;Initial Catalog=GameStorm.GameService;Integrated Security=True");
+      if (!options.IsConfigured)
+      {
+          options.UseInMemoryDatabase(databaseName: "Adai");
       }
       base.OnConfiguring(options);
     }

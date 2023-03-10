@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "q3OnZICnmWDeWzpmePX7NgrQ8B1t3/2a2zB9FP0JTCPjvC2y+Xlmmohr8gFswmgG8XH1s3qip8atp2/tMw1zeQ==",
+  "dgSpecHash": "DTy9Tig9aaZEXOdM6aVQNKZSzoV+5lflR2iV2AQwhVX7xiFvCG3I6bVmbcOTHjkdNaWM0rwPcrn+i+H9XxX9dw==",
   "success": true,
-  "projectFilePath": "W:\\WorkFolder\\C#\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
+  "projectFilePath": "C:\\Users\\ezhekhan.adai\\Desktop\\GameStore\\GameStorm\\Src\\Services\\UserIdentityService\\UserIdentityService.Shared\\UserIdentityService.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\adai0\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ezhekhan.adai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.next.local/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

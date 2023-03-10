@@ -3,6 +3,7 @@ using GameService.Domain.EntityModels.Dictionaries;
 using GameService.Domain.Replies;
 using GameService.Infrastructure.Persistence;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.Dictionaries {
@@ -11,7 +12,18 @@ namespace GameService.Infrastructure.Services.Dictionaries {
     private readonly GameServiceContext _context;
 
     public GenreService(GameServiceContext context) {
-      _context = context;
+        _context = context;
+         
+        List<Genre> genres = new List<Genre>() { 
+            new Genre() { Id = 1, Name = "Action", NormalizedName = "action"},
+            new Genre() { Id = 2, Name = "Adventure", NormalizedName = "adventure"},
+            new Genre() { Id = 3, Name = "Rpg", NormalizedName = "rpg"},
+            new Genre() { Id = 4, Name = "Shooters", NormalizedName = "shooters"},
+            new Genre() { Id = 5, Name = "Puzzle", NormalizedName = "puzzle"},
+        };
+
+        _context.Genres.AddRange(genres);
+        _context.SaveChanges();
     }
 
     public async Task<GenreReply> CreateGenre(Genre genre) {

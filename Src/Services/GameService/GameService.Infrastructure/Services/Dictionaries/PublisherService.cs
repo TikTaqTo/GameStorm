@@ -3,6 +3,7 @@ using GameService.Domain.EntityModels.Dictionaries;
 using GameService.Domain.Replies;
 using GameService.Infrastructure.Persistence;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace GameService.Infrastructure.Services.Dictionaries {
@@ -11,7 +12,18 @@ namespace GameService.Infrastructure.Services.Dictionaries {
     private readonly GameServiceContext _context;
 
     public PublisherService(GameServiceContext context) {
-      _context = context;
+        _context = context;
+
+        List<Publisher> publishers = new List<Publisher>() { 
+            new Publisher (){ Id = 1, Name = "CD PROJEKT RED", NormalizedName = "cd projekt red" },
+            new Publisher (){ Id = 2, Name = "Electronic Arts", NormalizedName = "electronic arts" },
+            new Publisher (){ Id = 3, Name = "Valve", NormalizedName = "valve" },
+            new Publisher (){ Id = 4, Name = "Sony Interactive Entertainment", NormalizedName = "sony interactive entertainment" },
+            new Publisher (){ Id = 5, Name = "Rockstar Games", NormalizedName = "rockstar games" },
+        };
+
+        _context.Publishers.AddRange(publishers);
+        _context.SaveChanges();
     }
 
     public async Task<PublisherReply> CreatePublisher(Publisher publisher) {
